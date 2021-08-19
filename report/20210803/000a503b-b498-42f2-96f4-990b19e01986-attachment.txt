@@ -1,0 +1,3 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://mytest.ytoglobal.com:8080 "POST /gateway/app/shop/update HTTP/1.1" 200 74
+INFO     root:logs.py:31 接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-08-02 17:52:32'}

@@ -1,0 +1,108 @@
+{
+  "uid" : "48902f5dacbc8971",
+  "name" : "用例标题：正确用户名，正确密码",
+  "fullName" : "testcase.test_set.TestAddress#test_addr_add",
+  "historyId" : "77a0d8a2501ddf78706661c025c48353",
+  "time" : {
+    "start" : 1629252153638,
+    "stop" : 1629252153638,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+  "statusTrace" : "@pytest.fixture(scope='session')\n    def userId():\n>       userId = Login().yt_login('易通')['data']['userId']\nE       TypeError: 'NoneType' object has no attribute '__getitem__'\n\ntestcase\\conftest.py:23: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1629252153761,
+      "stop" : 1629252153949,
+      "duration" : 188
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object has no attribute '__getitem__'\n",
+    "statusTrace" : "  File \"d:\\python27\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 936, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 795, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"F:\\shj\\YT_interface2\\testcase\\conftest.py\", line 15, in yt_headers\n    token = Login().yt_login('\\xe6\\x98\\x93\\xe9\\x80\\x9a')['data']['accessToken']\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "userId",
+    "time" : {
+      "start" : 1629252152754,
+      "stop" : 1629252153563,
+      "duration" : 809
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'NoneType' object has no attribute '__getitem__'\n",
+    "statusTrace" : "  File \"d:\\python27\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 936, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 795, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"F:\\shj\\YT_interface2\\testcase\\conftest.py\", line 23, in userId\n    userId = Login().yt_login('\\xe6\\x98\\x93\\xe9\\x80\\x9a')['data']['userId']\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "story",
+    "value" : "新增地址接口"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddress"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "13804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'status': 200, 'message': 'OK'}"
+  }, {
+    "name" : "test_input",
+    "value" : "{'districtCode': '640302', 'cityCode': '640300', 'name': u'\\u65b0\\u589e\\u5730\\u5740-\\u81ea\\u52a8\\u531601', 'countryCode': 'CN', 'mobile': '18509251760', 'identityCode': 'ID', 'company': u'\\u5b87\\u901a\\u79d1\\u6280\\u516c\\u53f8', 'cityName': u'\\u5434\\u5fe0\\u5e02', 'zipCode': '717200', 'countryName': u'\\u4e2d\\u56fd', 'provinceCode': '640000', 'districtName': u'\\u5229\\u901a\\u533a', 'detailAddress': u'\\u9526\\u4e1a\\u8def\\u521b\\u65b0\\u5546\\u52a1\\u516c\\u5bd3', 'identityNumber': '610628199105201727', 'provinceName': u'\\u5b81\\u590f\\u56de\\u65cf\\u81ea\\u6cbb\\u533a'}"
+  }, {
+    "name" : "title",
+    "value" : "'正确用户名，正确密码'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "48902f5dacbc8971.json",
+  "parameterValues" : [ "{'status': 200, 'message': 'OK'}", "{'districtCode': '640302', 'cityCode': '640300', 'name': u'\\u65b0\\u589e\\u5730\\u5740-\\u81ea\\u52a8\\u531601', 'countryCode': 'CN', 'mobile': '18509251760', 'identityCode': 'ID', 'company': u'\\u5b87\\u901a\\u79d1\\u6280\\u516c\\u53f8', 'cityName': u'\\u5434\\u5fe0\\u5e02', 'zipCode': '717200', 'countryName': u'\\u4e2d\\u56fd', 'provinceCode': '640000', 'districtName': u'\\u5229\\u901a\\u533a', 'detailAddress': u'\\u9526\\u4e1a\\u8def\\u521b\\u65b0\\u5546\\u52a1\\u516c\\u5bd3', 'identityNumber': '610628199105201727', 'provinceName': u'\\u5b81\\u590f\\u56de\\u65cf\\u81ea\\u6cbb\\u533a'}", "'正确用户名，正确密码'" ]
+}

@@ -1,0 +1,400 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_set",
+      "children" : [ {
+        "name" : "TestAPI",
+        "children" : [ {
+          "name" : "test_api_list",
+          "uid" : "e309e70fdd2b8ce1",
+          "parentUid" : "f1bcfdf6733fdaf2e19ff63662c4406e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338548593,
+            "stop" : 1629338548593,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_api_update",
+          "uid" : "ce06f6c10fd03866",
+          "parentUid" : "f1bcfdf6733fdaf2e19ff63662c4406e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338548712,
+            "stop" : 1629338549095,
+            "duration" : 383
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1bcfdf6733fdaf2e19ff63662c4406e"
+      }, {
+        "name" : "TestAddress",
+        "children" : [ {
+          "name" : "用例标题：正确用户名，正确密码",
+          "uid" : "9c27f45b372ce9f5",
+          "parentUid" : "25eb5c9f401764b1bb67d883abaa97a3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549126,
+            "stop" : 1629338549127,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'OK'}", "{'districtCode': '640302', 'cityCode': '640300', 'name': u'\\u65b0\\u589e\\u5730\\u5740-\\u81ea\\u52a8\\u531601', 'countryCode': 'CN', 'mobile': '18509251760', 'identityCode': 'ID', 'company': u'\\u5b87\\u901a\\u79d1\\u6280\\u516c\\u53f8', 'cityName': u'\\u5434\\u5fe0\\u5e02', 'zipCode': '717200', 'countryName': u'\\u4e2d\\u56fd', 'provinceCode': '640000', 'districtName': u'\\u5229\\u901a\\u533a', 'detailAddress': u'\\u9526\\u4e1a\\u8def\\u521b\\u65b0\\u5546\\u52a1\\u516c\\u5bd3', 'identityNumber': '610628199105201727', 'provinceName': u'\\u5b81\\u590f\\u56de\\u65cf\\u81ea\\u6cbb\\u533a'}", "'正确用户名，正确密码'" ]
+        }, {
+          "name" : "用例标题：正确用户名，错误密码",
+          "uid" : "c0a4fb33182aeb9a",
+          "parentUid" : "25eb5c9f401764b1bb67d883abaa97a3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549171,
+            "stop" : 1629338549171,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'countryName:...edValue: null'}", "{'mobile': '18509251761', 'name': 'sue1'}", "'正确用户名，错误密码'" ]
+        }, {
+          "name" : "修改地址接口",
+          "uid" : "a97e893031c94f2d",
+          "parentUid" : "25eb5c9f401764b1bb67d883abaa97a3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549214,
+            "stop" : 1629338549215,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除地址接口",
+          "uid" : "25c852f5cf37c589",
+          "parentUid" : "25eb5c9f401764b1bb67d883abaa97a3",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549248,
+            "stop" : 1629338549248,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "25eb5c9f401764b1bb67d883abaa97a3"
+      }, {
+        "name" : "TestShop",
+        "children" : [ {
+          "name" : "用例标题：正确店铺名",
+          "uid" : "d0f144838a361328",
+          "parentUid" : "1508a9267c2e59ef9006b1d18d740065",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549282,
+            "stop" : 1629338549283,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'OK'}", "{'shopName': u'\\u672c\\u5730\\u5e97\\u94fa-\\u81ea\\u52a8\\u531601'}", "'正确店铺名'" ]
+        }, {
+          "name" : "test_shop_update",
+          "uid" : "919a0281d64cb1ad",
+          "parentUid" : "1508a9267c2e59ef9006b1d18d740065",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549326,
+            "stop" : 1629338549326,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_shop_status",
+          "uid" : "9b7f5cc1bd23d22f",
+          "parentUid" : "1508a9267c2e59ef9006b1d18d740065",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549359,
+            "stop" : 1629338549359,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_shop_list",
+          "uid" : "93d2ce90c861c587",
+          "parentUid" : "1508a9267c2e59ef9006b1d18d740065",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549391,
+            "stop" : 1629338549392,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1508a9267c2e59ef9006b1d18d740065"
+      }, {
+        "name" : "TestRole",
+        "children" : [ {
+          "name" : "用例标题：正确角色名，备注",
+          "uid" : "3b21f533326bc1b4",
+          "parentUid" : "ff1e73e0790e73784bbf85bc0a37dc55",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549485,
+            "stop" : 1629338549485,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'OK'}", "{'roleName': u'\\u89d2\\u8272-\\u81ea\\u52a8\\u531601', 'remark': u'\\u65b0\\u589e\\u89d2\\u8272\\u6d4b\\u8bd5'}", "'正确角色名，备注'" ]
+        }, {
+          "name" : "用例标题：正确角色名，备注为空",
+          "uid" : "d462539a1a4f3d8f",
+          "parentUid" : "ff1e73e0790e73784bbf85bc0a37dc55",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549525,
+            "stop" : 1629338549526,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'OK'}", "{'roleName': u'\\u89d2\\u8272-\\u81ea\\u52a8\\u531602'}", "'正确角色名，备注为空'" ]
+        }, {
+          "name" : "test_role_update",
+          "uid" : "8e3f4e12dc2dfd59",
+          "parentUid" : "ff1e73e0790e73784bbf85bc0a37dc55",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549567,
+            "stop" : 1629338549567,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_role_auth",
+          "uid" : "2e67fcf363382eb5",
+          "parentUid" : "ff1e73e0790e73784bbf85bc0a37dc55",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549597,
+            "stop" : 1629338549598,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_role_list",
+          "uid" : "c4409dd725d4d7cb",
+          "parentUid" : "ff1e73e0790e73784bbf85bc0a37dc55",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549627,
+            "stop" : 1629338549628,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ff1e73e0790e73784bbf85bc0a37dc55"
+      }, {
+        "name" : "TestUser",
+        "children" : [ {
+          "name" : "用例标题：正确的用户信息（填写所有字段）",
+          "uid" : "e43472daf219314d",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549657,
+            "stop" : 1629338549657,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'OK'}", "{'username': 'SUE_ZK04_A01', 'confirm': 'Qq123456', 'roleId': 138, 'cnName': u'\\u7528\\u62371', 'phoneNumber': '13200000001', 'password': 'UXExMjM0NTY=', 'email': '1063514310@qq.com', 'enName': 'englishname'}", "'正确的用户信息（填写所有字段）'" ]
+        }, {
+          "name" : "用例标题：正确的用户信息（填写必填字段）",
+          "uid" : "ac9501553a643067",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549698,
+            "stop" : 1629338549699,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 200, 'message': 'OK'}", "{'username': 'SUE_ZK04_A02', 'password': 'UXExMjM0NTY=', 'cnName': u'\\u7528\\u62372', 'confirm': 'Qq123456', 'roleId': 138, 'phoneNumber': '13200000002'}", "'正确的用户信息（填写必填字段）'" ]
+        }, {
+          "name" : "用例标题：用户名填写重复，提示用户名已存在",
+          "uid" : "f6f6a1a69235d3f",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549739,
+            "stop" : 1629338549739,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'status': 500, 'message': u'\\u7528\\u6237\\u540d\\u5df2\\u5b58\\u5728\\uff01'}", "{'username': 'SUE_ZK04_A02', 'password': 'UXExMjM0NTY=', 'cnName': u'\\u7528\\u62372', 'confirm': 'Qq123456', 'roleId': 138, 'phoneNumber': '13200000002'}", "'用户名填写重复，提示用户名已存在'" ]
+        }, {
+          "name" : "test_user_update",
+          "uid" : "2a4eadadb854eea8",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549789,
+            "stop" : 1629338549790,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_user_status",
+          "uid" : "15ec42de2c65064c",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549819,
+            "stop" : 1629338549819,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_subuser",
+          "uid" : "c0a3963afbf86bb1",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338549851,
+            "stop" : 1629338549851,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_user_list",
+          "uid" : "dc50bc65779fe13e",
+          "parentUid" : "927a97101325d7923fe37641e61b0fd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1629338549855,
+            "stop" : 1629338549855,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "927a97101325d7923fe37641e61b0fd7"
+      }, {
+        "name" : "TestPerson",
+        "children" : [ {
+          "name" : "test_person_info",
+          "uid" : "d0f4fe29ac35497a",
+          "parentUid" : "5179f9b736f42dabc7e8c697d02faa0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338549884,
+            "stop" : 1629338550153,
+            "duration" : 269
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_person_update",
+          "uid" : "bd14ba3db1ab01f",
+          "parentUid" : "5179f9b736f42dabc7e8c697d02faa0d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338550158,
+            "stop" : 1629338550440,
+            "duration" : 282
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5179f9b736f42dabc7e8c697d02faa0d"
+      } ],
+      "uid" : "12feff1b691a6a10c069bf6d3b74c4bc"
+    }, {
+      "name" : "test_waybill",
+      "children" : [ {
+        "name" : "TestSingleOrder",
+        "children" : [ {
+          "name" : "test_addr_add",
+          "uid" : "4c15fbeb68236625",
+          "parentUid" : "e4a4dd2b4b81f5e28753db18bc3e7096",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338550456,
+            "stop" : 1629338550456,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e4a4dd2b4b81f5e28753db18bc3e7096"
+      }, {
+        "name" : "TestWaybillManage",
+        "children" : [ {
+          "name" : "test_waybill_add",
+          "uid" : "31e1ffc105a0753",
+          "parentUid" : "c7227d4bdbe866f529236e737dfac5ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338550460,
+            "stop" : 1629338550461,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_111",
+          "uid" : "d0578f515f26a09d",
+          "parentUid" : "c7227d4bdbe866f529236e737dfac5ff",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629338550464,
+            "stop" : 1629338550464,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c7227d4bdbe866f529236e737dfac5ff"
+      } ],
+      "uid" : "e55ec4b5eb2065429e151fbdc1ca5495"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

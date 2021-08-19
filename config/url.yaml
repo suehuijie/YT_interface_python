@@ -1,0 +1,24 @@
+api:
+  list_api: https://mytest.ytoglobal.com:8080/gateway/app/apiSetting/query/list
+  update_api: https://mytest.ytoglobal.com:8080/gateway/app/apiSetting/update
+address:
+  add_addr: https://mytest.ytoglobal.com:8080/gateway/app/address/save
+  update_addr: https://mytest.ytoglobal.com:8080/gateway/app/address/update
+  delete_addr: https://mytest.ytoglobal.com:8080/gateway/app/address/batchDelete
+shop:
+  add_shop: https://mytest.ytoglobal.com:8080/gateway/app/shop/add
+  update_shop: https://mytest.ytoglobal.com:8080/gateway/app/shop/update
+  list_shop: https://mytest.ytoglobal.com:8080/gateway/app/shop/platformShop/list
+role:
+  add_role: https://mytest.ytoglobal.com:8080/gateway/app/subUser/role/add
+  update_role: https://mytest.ytoglobal.com:8080/gateway/app/subUser/role/modify
+  auth_role: https://mytest.ytoglobal.com:8080/gateway/app/subUser/role/authorization
+user:
+  add_user: https://mytest.ytoglobal.com:8080/gateway/app/subUser/add
+  update_user: https://mytest.ytoglobal.com:8080/gateway/app/subUser/modify
+person:
+  list_info: https://mytest.ytoglobal.com:8080/gateway/app/user/info
+  update_info: https://mytest.ytoglobal.com:8080/gateway/app/user/info
+waybillmanager:
+  waybill_add: https://mytest.ytoglobal.com:8080/gateway/app/logistics/waybill/manage/add
+

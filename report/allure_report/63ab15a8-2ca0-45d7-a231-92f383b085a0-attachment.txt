@@ -1,0 +1,5 @@
+INFO     root:logs.py:31 新增地址前，查询sql数据结果为1
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://mytest.ytoglobal.com:8080 "POST /gateway/app/address/save HTTP/1.1" 400 130
+INFO     root:logs.py:31 接口响应数据结果为{u'status': 400, u'message': u'countryName: \u56fd\u5bb6\u540d\u79f0\u4e0d\u80fd\u4e3a\u7a7a, rejectedValue: null', u'time': u'2021-08-10 09:40:38'}
+INFO     root:logs.py:31 新增地址后，查询sql数据结果为1

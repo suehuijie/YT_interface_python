@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+ERROR    root:logs.py:37 登录报错HTTPSConnectionPool(host='mytest.ytoglobal.com', port=8080): Max retries exceeded with url: /gateway/app/user/login (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000000004191388>: Failed to establish a new connection: [Errno 10060] ',))

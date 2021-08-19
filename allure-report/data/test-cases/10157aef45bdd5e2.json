@@ -1,0 +1,100 @@
+{
+  "uid" : "10157aef45bdd5e2",
+  "name" : "test_111",
+  "fullName" : "testcase.test_waybill.TestWaybillManage#test_111",
+  "historyId" : "fdd22f95267bff1749b7a86054c77e7a",
+  "time" : {
+    "start" : 1629165766768,
+    "stop" : 1629165766768,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1629165766764,
+      "stop" : 1629165766764,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "438c14aa593f8f1b",
+      "name" : "stdout",
+      "source" : "438c14aa593f8f1b.txt",
+      "type" : "text/plain",
+      "size" : 1172
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1629165766769,
+      "stop" : 1629165766769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_waybill"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWaybillManage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "10956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_waybill"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10157aef45bdd5e2.json",
+  "parameterValues" : [ ]
+}

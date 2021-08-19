@@ -1,0 +1,145 @@
+{
+  "uid" : "bb86ac444e3b2f6",
+  "name" : "test_shop_update",
+  "fullName" : "testcase.test_set.TestShop#test_shop_update",
+  "historyId" : "d273ddf0d319b10aa905207413d751b2",
+  "time" : {
+    "start" : 1628503914231,
+    "stop" : 1628503914585,
+    "duration" : 354
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1628503911127,
+      "stop" : 1628503911579,
+      "duration" : 452
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1628503913823,
+      "stop" : 1628503913823,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "userId",
+    "time" : {
+      "start" : 1628503910077,
+      "stop" : 1628503911127,
+      "duration" : 1050
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f8220049052f10a",
+      "name" : "log",
+      "source" : "2f8220049052f10a.txt",
+      "type" : "text/plain",
+      "size" : 371
+    }, {
+      "uid" : "aac79378ba676bfa",
+      "name" : "stderr",
+      "source" : "aac79378ba676bfa.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1628503915372,
+      "stop" : 1628503915457,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改店铺接口"
+  }, {
+    "name" : "feature",
+    "value" : "店铺管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShop"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "3080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "bb86ac444e3b2f6.json",
+  "parameterValues" : [ ]
+}

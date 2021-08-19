@@ -1,0 +1,24 @@
+易通:
+  url: https://mytest.ytoglobal.com:8080/gateway/app/user/login
+  headers:
+    Content-Type: 'application/json'
+  param:
+    username: "SUE_ZK04"
+    password: "MTIzNDU2"
+    captcha: "111"
+
+  mysql_yt:
+    host: "rm-j6cj81551u2259840249.mysql.rds.aliyuncs.com"
+    user: "et_rw"
+    password: "YH#3e4BDS#GGF2QL"
+    db: "ytg-et"
+    port: 3306
+    charset: "utf8"
+
+  mysql_basic:
+    host: "rm-j6cj81551u2259840249.mysql.rds.aliyuncs.com"
+    user: "overseas"
+    password: "1qaz@WSX"
+    db: "basicdata"
+    port: 3306
+    charset: "utf8"

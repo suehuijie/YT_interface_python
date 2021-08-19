@@ -1,0 +1,3 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://mytest.ytoglobal.com:8080 "POST /gateway/app/address/batchDelete HTTP/1.1" 200 101
+INFO     root:logs.py:31 接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-08-02 16:50:53'}

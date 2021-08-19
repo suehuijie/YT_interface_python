@@ -1,0 +1,504 @@
+{
+  "uid" : "e43472daf219314d",
+  "name" : "用例标题：正确的用户信息（填写所有字段）",
+  "fullName" : "testcase.test_set.TestUser#test_user_add",
+  "historyId" : "378dd6c5b900fdd1f2ad9c1330d72a66",
+  "time" : {
+    "start" : 1629338549657,
+    "stop" : 1629338549657,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+  "statusTrace" : "self = <test_set.TestUser object at 0x0000000004A84548>\ntest_input = {'cnName': '用户1', 'confirm': 'Qq123456', 'email': '1063514310@qq.com', 'enName': 'englishname', ...}\nexpected = {'message': 'OK', 'status': 200}\ntitle = '正确的用户信息（填写所有字段）'\nyt_headers = {'authorization': 'Bearer 6a315edd-28a7-40f0-885e-71ed0705ee23', 'content-type': 'application/json'}\n\n    @allure.story(\"新增用户信息接口\")\n    @allure.title(\"用例标题：{title}\")\n    @pytest.mark.parametrize(\"test_input, expected, title\", test_data['set']['user_data'])\n    def test_user_add(self, test_input, expected, title, yt_headers):\n    \n>       count_before = self.sql_exec.select_one(self.sql['user']['count'])[0]\n\ntestcase\\test_set.py:307: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.execSql.ExecSql object at 0x000000000416E6C8>\nsql = \"SELECT count(id) FROM t_user_account WHERE create_user_id = '500000560' and username not in ('SUE_ZK04_01', 'SUE_ZK04_02')\"\n\n    def select_one(self, sql):\n        \"\"\"\n        查询sql语句返回的第一条数据\n        :param sql:\n        :return:\n        \"\"\"\n>       self.cur.execute(sql)\nE       AttributeError: 'ExecSql' object has no attribute 'cur'\n\ncommon\\execSql.py:45: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "userId",
+    "time" : {
+      "start" : 1629338546994,
+      "stop" : 1629338548160,
+      "duration" : 1166
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1629338549655,
+      "stop" : 1629338549655,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1629338548160,
+      "stop" : 1629338548591,
+      "duration" : 431
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1629338549855,
+      "stop" : 1629338549856,
+      "duration" : 1
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'ExecSql' object has no attribute 'cur'\n",
+    "statusTrace" : "  File \"d:\\python27\\lib\\site-packages\\allure_commons\\_allure.py\", line 185, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 803, in _teardown_yield_fixture\n    next(it)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\python.py\", line 762, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\python.py\", line 697, in _call_with_optional_argument\n    func(arg)\n  File \"F:\\shj\\YT_interface2\\testcase\\test_set.py\", line 289, in teardown_class\n    userId = self.sql_exec.select_all(self.sql['user']['id'])\n  File \"F:\\shj\\YT_interface2\\common\\execSql.py\", line 54, in select_all\n    self.cur.execute(sql)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增用户信息接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "15340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'status': 200, 'message': 'OK'}"
+  }, {
+    "name" : "test_input",
+    "value" : "{'username': 'SUE_ZK04_A01', 'confirm': 'Qq123456', 'roleId': 138, 'cnName': u'\\u7528\\u62371', 'phoneNumber': '13200000001', 'password': 'UXExMjM0NTY=', 'email': '1063514310@qq.com', 'enName': 'englishname'}"
+  }, {
+    "name" : "title",
+    "value" : "'正确的用户信息（填写所有字段）'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6ca5a27bdedbfbe",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153709,
+        "stop" : 1629252153709,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cf851e2e21ef181d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765953,
+        "stop" : 1629165765954,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d2826465079b6420",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464658,
+        "stop" : 1629099464658,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89ad74a2be3d824f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145085,
+        "stop" : 1628820145085,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c666fa547d470524",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758554,
+        "stop" : 1628733758554,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a2ce3a937a9ab22a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396465,
+        "stop" : 1628647396465,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9f5fe8f54d2b10e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560922825,
+        "stop" : 1628560923443,
+        "duration" : 618
+      }
+    }, {
+      "uid" : "2221b53e251bd90c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559644222,
+        "stop" : 1628559644835,
+        "duration" : 613
+      }
+    }, {
+      "uid" : "8cf179b1f706eddc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347492,
+        "stop" : 1628559347492,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d58c4c30bc7dbff1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503917250,
+        "stop" : 1628503917814,
+        "duration" : 564
+      }
+    }, {
+      "uid" : "f4f00fd6c7e5187e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503750034,
+        "stop" : 1628503750587,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "4f6444970edd4489",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501523093,
+        "stop" : 1628501523654,
+        "duration" : 561
+      }
+    }, {
+      "uid" : "b580d9ef57d19647",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501068425,
+        "stop" : 1628501069007,
+        "duration" : 582
+      }
+    }, {
+      "uid" : "b135b3d17f823cda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500140635,
+        "stop" : 1628500141200,
+        "duration" : 565
+      }
+    }, {
+      "uid" : "eb16f736f8330f12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499758788,
+        "stop" : 1628499759342,
+        "duration" : 554
+      }
+    }, {
+      "uid" : "24cadcd604bec367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499302152,
+        "stop" : 1628499302705,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "3a02ff0528b73e88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498875781,
+        "stop" : 1628498876348,
+        "duration" : 567
+      }
+    }, {
+      "uid" : "4800474f2d80ab15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498511163,
+        "stop" : 1628498511717,
+        "duration" : 554
+      }
+    }, {
+      "uid" : "52b8f7f4ffffd871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628497961395,
+        "stop" : 1628497961955,
+        "duration" : 560
+      }
+    }, {
+      "uid" : "76ef3ac314937e2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628497648460,
+        "stop" : 1628497649016,
+        "duration" : 556
+      }
+    }, {
+      "uid" : "ceccb706c88d7f32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628496857127,
+        "stop" : 1628496857678,
+        "duration" : 551
+      }
+    }, {
+      "uid" : "181a221d1e45886b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628494495329,
+        "stop" : 1628494495900,
+        "duration" : 571
+      }
+    }, {
+      "uid" : "42fc0fb72517d7d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628494281281,
+        "stop" : 1628494281833,
+        "duration" : 552
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "5cfa47d3175ee073",
+        "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/5cfa47d3175ee073",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+        "time" : {
+          "start" : 1629252153709,
+          "stop" : 1629252153709,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f4c022f1a4bf9d43",
+        "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/f4c022f1a4bf9d43",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+        "time" : {
+          "start" : 1629165765953,
+          "stop" : 1629165765954,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "f1c3a72c0030829f",
+        "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/f1c3a72c0030829f",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+        "time" : {
+          "start" : 1629099464658,
+          "stop" : 1629099464658,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "430b596011fb04d4",
+        "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/430b596011fb04d4",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+        "time" : {
+          "start" : 1628820145085,
+          "stop" : 1628820145085,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "127c7690c3f0b65b",
+        "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/127c7690c3f0b65b",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+        "time" : {
+          "start" : 1628733758554,
+          "stop" : 1628733758554,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5a72f0499e3d0fb",
+        "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/5a72f0499e3d0fb",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+        "time" : {
+          "start" : 1628647396465,
+          "stop" : 1628647396465,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b776be70c18546a9",
+        "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/b776be70c18546a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628560922825,
+          "stop" : 1628560923443,
+          "duration" : 618
+        }
+      }, {
+        "uid" : "cfe9712faadea932",
+        "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/cfe9712faadea932",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628559644222,
+          "stop" : 1628559644835,
+          "duration" : 613
+        }
+      }, {
+        "uid" : "e167fcbeef5f2056",
+        "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/e167fcbeef5f2056",
+        "status" : "broken",
+        "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+        "time" : {
+          "start" : 1628559347492,
+          "stop" : 1628559347492,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ec11ed5f829b79b7",
+        "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/ec11ed5f829b79b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628503917250,
+          "stop" : 1628503917814,
+          "duration" : 564
+        }
+      }, {
+        "uid" : "72bae162bf9be69b",
+        "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/72bae162bf9be69b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628503750034,
+          "stop" : 1628503750587,
+          "duration" : 553
+        }
+      }, {
+        "uid" : "76965d034fe7c6b",
+        "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/76965d034fe7c6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628501523093,
+          "stop" : 1628501523654,
+          "duration" : 561
+        }
+      }, {
+        "uid" : "1a6fe0d9d91b96a3",
+        "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/1a6fe0d9d91b96a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628501068425,
+          "stop" : 1628501069007,
+          "duration" : 582
+        }
+      }, {
+        "uid" : "569d5771be9c7b28",
+        "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/569d5771be9c7b28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628500140635,
+          "stop" : 1628500141200,
+          "duration" : 565
+        }
+      }, {
+        "uid" : "5fdf21b3bdf2036d",
+        "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/5fdf21b3bdf2036d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628499758788,
+          "stop" : 1628499759342,
+          "duration" : 554
+        }
+      }, {
+        "uid" : "1a470205957938b6",
+        "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/1a470205957938b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628499302152,
+          "stop" : 1628499302705,
+          "duration" : 553
+        }
+      }, {
+        "uid" : "6fce2a5965d9d2d5",
+        "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/6fce2a5965d9d2d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628498875781,
+          "stop" : 1628498876348,
+          "duration" : 567
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "e43472daf219314d.json",
+  "parameterValues" : [ "{'status': 200, 'message': 'OK'}", "{'username': 'SUE_ZK04_A01', 'confirm': 'Qq123456', 'roleId': 138, 'cnName': u'\\u7528\\u62371', 'phoneNumber': '13200000001', 'password': 'UXExMjM0NTY=', 'email': '1063514310@qq.com', 'enName': 'englishname'}", "'正确的用户信息（填写所有字段）'" ]
+}

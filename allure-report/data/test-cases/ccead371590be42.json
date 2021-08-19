@@ -1,0 +1,145 @@
+{
+  "uid" : "ccead371590be42",
+  "name" : "test_person_info",
+  "fullName" : "testcase.test_set.TestPerson#test_person_info",
+  "historyId" : "8c0f104f87c8845eb4e63676f6f01dbd",
+  "time" : {
+    "start" : 1628494284165,
+    "stop" : 1628494284486,
+    "duration" : 321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "userId",
+    "time" : {
+      "start" : 1628494274144,
+      "stop" : 1628494274947,
+      "duration" : 803
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1628494284164,
+      "stop" : 1628494284164,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1628494274947,
+      "stop" : 1628494275385,
+      "duration" : 438
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6bf1050b8725900b",
+      "name" : "log",
+      "source" : "6bf1050b8725900b.txt",
+      "type" : "text/plain",
+      "size" : 11018
+    }, {
+      "uid" : "1129bfbdda96b883",
+      "name" : "stderr",
+      "source" : "1129bfbdda96b883.txt",
+      "type" : "text/plain",
+      "size" : 10784
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1628494284825,
+      "stop" : 1628494284825,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查看个人信息接口"
+  }, {
+    "name" : "feature",
+    "value" : "个人信息"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPerson"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "11608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "ccead371590be42.json",
+  "parameterValues" : [ ]
+}

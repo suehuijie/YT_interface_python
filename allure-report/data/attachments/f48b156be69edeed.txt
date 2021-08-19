@@ -1,0 +1,5 @@
+INFO     root:logs.py:31 新增店铺前，查询sql数据结果为1
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://mytest.ytoglobal.com:8080 "POST /gateway/app/shop/add HTTP/1.1" 200 74
+INFO     root:logs.py:31 接口响应数据结果为{u'status': 200, u'message': u'OK', u'time': u'2021-08-10 10:01:58'}
+INFO     root:logs.py:31 新增地址后，查询sql数据结果为2

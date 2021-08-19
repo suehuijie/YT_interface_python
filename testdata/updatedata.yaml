@@ -1,0 +1,76 @@
+set:
+  address_data:
+    name: "修改地址-自动化01"
+    mobile: "18509251760"
+    countryCode: "CN"
+    countryName: "中国"
+    provinceCode: "640000"
+    provinceName: "宁夏回族自治区"
+    cityCode: "640300"
+    cityName: "吴忠市"
+    districtCode: "640302"
+    districtName: "利通区"
+    detailAddress: "锦业路创新商务公寓"
+    identityCode: "ID"
+    identityNumber: "610628199105201727"
+    company: "宇通科技公司"
+    zipCode: "717200"
+
+  shop_data:
+    shopName: "本地店铺-自动化修改01"
+
+  role_data:
+    roleName: "角色1-自动化修改01"
+
+  role_auth:
+    resourceList:
+      - id: "4"
+        resourceCode: "OFFLINE-ORDER"
+        resourceName: "线下订单"
+        resourceType: 0
+        resourcePath: "ORDER:OFFLINE-ORDER"
+        resourceSeq: 2
+        parentId: 2
+        clientId: 1
+      - id: "9"
+        resourceCode: "WAYBILL-CREATE-SINGLE"
+        resourceName: "单票下单"
+        resourceType: 0
+        resourcePath: "LOGISTICS:WAYBILL-CENTER:WAYBILL-CREATE:WAYBILL-CREATE-SINGLE"
+        resourceSeq: 1
+        parentId: 6
+        clientId: 1
+
+  user_data:
+    password: "UXExMjM0NTY="
+    confirm: "Qq123456"
+    cnName: "sue1"
+    enName: "englishname1"
+    roleId: 138
+    roleName: "自动化测试角色_勿动"
+    phoneNumber: "185092517601"
+    email: "10635143101@qq.com"
+    hasSubUser: false
+    isEnabled: 1
+    parentId: 500000560
+
+  user_data_status:
+    roleId: 138
+    roleName: "自动化测试角色_勿动"
+    cnName: "用户2"
+    phoneNumber: "13200000002"
+    hasSubUser: false
+    parentId: 500000560
+
+  person_info:
+    username: "SUE_ZK04"
+    enName: "sue"
+    mobileNumber: "029-123456"
+    phoneNumber: "18509251760"
+    gender: 2
+    birthday: "2021-07-04"
+    address: "锦业路创业大厦"
+    email: "1063514310@qq.com"
+
+
+

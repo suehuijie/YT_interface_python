@@ -1,0 +1,45 @@
+common: 存放一些公共方法
+
+request.py  封装post、get请求方法，供所有地方调用
+
+login.py 封装各项目、各种方式的登录方法，供所有地方调用
+
+readFile.py 封装读取yaml中配置文件、excel中测试用例方法，供所有地方调用
+
+execSql.py 封装sql操作增、删、改、查方法，供所有地方调用
+
+prefixSqlData.py 封装前置、后置公共sql，供所有地方调用
+
+assertion.py 封装断言方法，供所有用例中调用
+
+logs.py 封装日志方法，供所有地方调用
+
+
+config
+
+sql.yaml  前置数据sql语句、后置清理sql语句等
+
+test.yaml  test环境数据库配置、接口域名、测试账号、登录接口数据等
+
+uat.yaml  uat环境数据库配置、接口域名、测试账号、登录接口数据等
+
+testcase.xls  测试用例等
+
+testcase
+
+testcase.xls  接口测试用例等
+
+conftest.py  放置了登录获取token供所有用例调用
+
+
+logs
+
+每天的日志数据
+
+report
+
+html  测试报告index.html
+
+
+pip freeze > requirements.txt   ---》在terminal命令行生成依赖包文件
+

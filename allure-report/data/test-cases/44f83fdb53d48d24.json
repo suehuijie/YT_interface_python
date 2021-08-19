@@ -1,0 +1,154 @@
+{
+  "uid" : "44f83fdb53d48d24",
+  "name" : "用例标题：正确角色名，备注",
+  "fullName" : "testcase.test_set.TestRole#test_role_add",
+  "historyId" : "0e051db1860da983a6665d9c6717632f",
+  "time" : {
+    "start" : 1628500138647,
+    "stop" : 1628500139048,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1628500134015,
+      "stop" : 1628500134462,
+      "duration" : 447
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "userId",
+    "time" : {
+      "start" : 1628500133147,
+      "stop" : 1628500134015,
+      "duration" : 868
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1628500138646,
+      "stop" : 1628500138646,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67be76cc994650f0",
+      "name" : "log",
+      "source" : "67be76cc994650f0.txt",
+      "type" : "text/plain",
+      "size" : 514
+    }, {
+      "uid" : "7cfe12047906c5e5",
+      "name" : "stderr",
+      "source" : "7cfe12047906c5e5.txt",
+      "type" : "text/plain",
+      "size" : 304
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1628500140226,
+      "stop" : 1628500140631,
+      "duration" : 405
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增角色接口"
+  }, {
+    "name" : "feature",
+    "value" : "角色管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRole"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "16568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'status': 200, 'message': 'OK'}"
+  }, {
+    "name" : "test_input",
+    "value" : "{'roleName': u'\\u89d2\\u8272-\\u81ea\\u52a8\\u531601', 'remark': u'\\u65b0\\u589e\\u89d2\\u8272\\u6d4b\\u8bd5'}"
+  }, {
+    "name" : "title",
+    "value" : "'正确角色名，备注'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "44f83fdb53d48d24.json",
+  "parameterValues" : [ "{'status': 200, 'message': 'OK'}", "{'roleName': u'\\u89d2\\u8272-\\u81ea\\u52a8\\u531601', 'remark': u'\\u65b0\\u589e\\u89d2\\u8272\\u6d4b\\u8bd5'}", "'正确角色名，备注'" ]
+}

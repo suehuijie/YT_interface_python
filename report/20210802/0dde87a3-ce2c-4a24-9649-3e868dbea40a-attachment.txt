@@ -1,0 +1,2 @@
+[2021-08-02 18:02:07,003]-logs.py]-INFO:查询sql数据结果为(u'4e2a8d7c6df4e28c722c706ac76e7808', u'1483cd4896b7a0de6d03ce071e9e2d144344cca23303a1e5343102ba642a62fa')
+[2021-08-02 18:02:07,391]-logs.py]-INFO:接口响应数据结果为{u'userName': u'SUE_ZK04', u'status': 1, u'updateTime': 1627897948000L, u'apiKey': u'4e2a8d7c6df4e28c722c706ac76e7808', u'userId': 500000560, u'createTime': 1626684387000L, u'createUserId': 500000560, u'apiToken': u'1483cd4896b7a0de6d03ce071e9e2d144344cca23303a1e5343102ba642a62fa', u'id': 406464167056773120L, u'isDeleted': 0}

@@ -1,0 +1,3 @@
+[2021-07-30 16:49:27,853]-logs.py]-INFO:新增地址前，查询sql数据结果为2
+[2021-07-30 16:49:28,176]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'detailAddress: 详细地址不能为空, rejectedValue: null', 'time': '2021-07-30 16:49:29'}
+[2021-07-30 16:49:28,218]-logs.py]-INFO:新增地址后，查询sql数据结果为2

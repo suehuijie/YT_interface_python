@@ -1,0 +1,136 @@
+{
+  "uid" : "cf851e2e21ef181d",
+  "name" : "用例标题：正确的用户信息（填写所有字段）",
+  "fullName" : "testcase.test_set.TestUser#test_user_add",
+  "historyId" : "378dd6c5b900fdd1f2ad9c1330d72a66",
+  "time" : {
+    "start" : 1629165765953,
+    "stop" : 1629165765954,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+  "statusTrace" : "self = <test_set.TestUser object at 0x0000000003035188>\ntest_input = {'cnName': '用户1', 'confirm': 'Qq123456', 'email': '1063514310@qq.com', 'enName': 'englishname', ...}\nexpected = {'message': 'OK', 'status': 200}\ntitle = '正确的用户信息（填写所有字段）'\nyt_headers = {'authorization': 'Bearer 0bfc3ed3-1821-4a7e-92c8-0602960b870a', 'content-type': 'application/json'}\n\n    @allure.story(\"新增用户信息接口\")\n    @allure.title(\"用例标题：{title}\")\n    @pytest.mark.parametrize(\"test_input, expected, title\", test_data['set']['user_data'])\n    def test_user_add(self, test_input, expected, title, yt_headers):\n    \n>       count_before = self.sql_exec.select_one(self.sql['user']['count'])[0]\n\ntestcase\\test_set.py:307: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.execSql.ExecSql object at 0x0000000003F39D88>\nsql = \"SELECT count(id) FROM t_user_account WHERE create_user_id = '500000560' and username not in ('SUE_ZK04_01', 'SUE_ZK04_02')\"\n\n    def select_one(self, sql):\n        \"\"\"\n        查询sql语句返回的第一条数据\n        :param sql:\n        :return:\n        \"\"\"\n>       self.cur.execute(sql)\nE       AttributeError: 'ExecSql' object has no attribute 'cur'\n\ncommon\\execSql.py:45: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1629165765952,
+      "stop" : 1629165765952,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "userId",
+    "time" : {
+      "start" : 1629165763499,
+      "stop" : 1629165764540,
+      "duration" : 1041
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1629165764541,
+      "stop" : 1629165764951,
+      "duration" : 410
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1629165766148,
+      "stop" : 1629165766148,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'ExecSql' object has no attribute 'cur'\n",
+    "statusTrace" : "  File \"d:\\python27\\lib\\site-packages\\allure_commons\\_allure.py\", line 185, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 803, in _teardown_yield_fixture\n    next(it)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\python.py\", line 762, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\python.py\", line 697, in _call_with_optional_argument\n    func(arg)\n  File \"F:\\shj\\YT_interface2\\testcase\\test_set.py\", line 289, in teardown_class\n    userId = self.sql_exec.select_all(self.sql['user']['id'])\n  File \"F:\\shj\\YT_interface2\\common\\execSql.py\", line 54, in select_all\n    self.cur.execute(sql)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增用户信息接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "10956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'status': 200, 'message': 'OK'}"
+  }, {
+    "name" : "test_input",
+    "value" : "{'username': 'SUE_ZK04_A01', 'confirm': 'Qq123456', 'roleId': 138, 'cnName': u'\\u7528\\u62371', 'phoneNumber': '13200000001', 'password': 'UXExMjM0NTY=', 'email': '1063514310@qq.com', 'enName': 'englishname'}"
+  }, {
+    "name" : "title",
+    "value" : "'正确的用户信息（填写所有字段）'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "cf851e2e21ef181d.json",
+  "parameterValues" : [ "{'status': 200, 'message': 'OK'}", "{'username': 'SUE_ZK04_A01', 'confirm': 'Qq123456', 'roleId': 138, 'cnName': u'\\u7528\\u62371', 'phoneNumber': '13200000001', 'password': 'UXExMjM0NTY=', 'email': '1063514310@qq.com', 'enName': 'englishname'}", "'正确的用户信息（填写所有字段）'" ]
+}

@@ -1,0 +1,136 @@
+{
+  "uid" : "c4ee0b910da371ec",
+  "name" : "用例标题：正确店铺名",
+  "fullName" : "testcase.test_set.TestShop#test_shop_add",
+  "historyId" : "ba287d5081ec0768a9b33a38b2dbee84",
+  "time" : {
+    "start" : 1628647396089,
+    "stop" : 1628647396090,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+  "statusTrace" : "self = <test_set.TestShop object at 0x0000000004687548>\ntest_input = {'shopName': '本地店铺-自动化01'}\nexpected = {'message': 'OK', 'status': 200}, title = '正确店铺名'\nyt_headers = {'authorization': 'Bearer 6b51e016-c6bc-408a-bb95-30a507007f0e', 'content-type': 'application/json'}\nuserId = 500000560\n\n    @allure.story(\"新增店铺接口\")\n    @allure.title(\"用例标题：{title}\")\n    @pytest.mark.parametrize(\"test_input, expected, title\", test_data['set']['shop_data'])\n    def test_shop_add(self, test_input, expected, title, yt_headers, userId):\n>       addrcount_before = self.sql_exec.select_one(self.sql['shop']['count'].format(userId))\n\ntestcase\\test_set.py:137: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <common.execSql.ExecSql object at 0x000000000459C3C8>\nsql = 'select count(id) FROM t_basic_shop WHERE user_id = 500000560'\n\n    def select_one(self, sql):\n        \"\"\"\n        查询sql语句返回的第一条数据\n        :param sql:\n        :return:\n        \"\"\"\n>       self.cur.execute(sql)\nE       AttributeError: 'ExecSql' object has no attribute 'cur'\n\ncommon\\execSql.py:45: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1628647395034,
+      "stop" : 1628647395473,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1628647396088,
+      "stop" : 1628647396088,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "userId",
+    "time" : {
+      "start" : 1628647394075,
+      "stop" : 1628647395034,
+      "duration" : 959
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1628647396225,
+      "stop" : 1628647396272,
+      "duration" : 47
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'ExecSql' object has no attribute 'cur'\n",
+    "statusTrace" : "  File \"d:\\python27\\lib\\site-packages\\allure_commons\\_allure.py\", line 185, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\fixtures.py\", line 803, in _teardown_yield_fixture\n    next(it)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\python.py\", line 762, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"d:\\python27\\lib\\site-packages\\_pytest\\python.py\", line 697, in _call_with_optional_argument\n    func(arg)\n  File \"F:\\shj\\YT_interface2\\testcase\\test_set.py\", line 131, in teardown_class\n    self.sql_exec.update(self.sql['shop']['clear'])\n  File \"F:\\shj\\YT_interface2\\common\\execSql.py\", line 63, in update\n    self.cur.execute(sql)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增店铺接口"
+  }, {
+    "name" : "feature",
+    "value" : "店铺管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestShop"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "2436-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'status': 200, 'message': 'OK'}"
+  }, {
+    "name" : "test_input",
+    "value" : "{'shopName': u'\\u672c\\u5730\\u5e97\\u94fa-\\u81ea\\u52a8\\u531601'}"
+  }, {
+    "name" : "title",
+    "value" : "'正确店铺名'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "c4ee0b910da371ec.json",
+  "parameterValues" : [ "{'status': 200, 'message': 'OK'}", "{'shopName': u'\\u672c\\u5730\\u5e97\\u94fa-\\u81ea\\u52a8\\u531601'}", "'正确店铺名'" ]
+}

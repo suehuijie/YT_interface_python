@@ -1,0 +1,154 @@
+{
+  "uid" : "368fbb46b56768c6",
+  "name" : "用例标题：用户名填写重复，提示用户名已存在",
+  "fullName" : "testcase.test_set.TestUser#test_user_add",
+  "historyId" : "c97964472474c4eb80381a2f0eab8f58",
+  "time" : {
+    "start" : 1628496858265,
+    "stop" : 1628496858655,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "userId",
+    "time" : {
+      "start" : 1628496849715,
+      "stop" : 1628496850649,
+      "duration" : 934
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1628496857125,
+      "stop" : 1628496857125,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "yt_headers",
+    "time" : {
+      "start" : 1628496850649,
+      "stop" : 1628496851382,
+      "duration" : 733
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f3dede4449b7ec0",
+      "name" : "log",
+      "source" : "1f3dede4449b7ec0.txt",
+      "type" : "text/plain",
+      "size" : 555
+    }, {
+      "uid" : "a146da2305dc3767",
+      "name" : "stderr",
+      "source" : "a146da2305dc3767.txt",
+      "type" : "text/plain",
+      "size" : 350
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1628496859431,
+      "stop" : 1628496859995,
+      "duration" : 564
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增用户信息接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户管理"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('userId')"
+  }, {
+    "name" : "suite",
+    "value" : "test_set"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M0PGOTF"
+  }, {
+    "name" : "thread",
+    "value" : "29296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_set"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "{'status': 500, 'message': u'\\u7528\\u6237\\u540d\\u5df2\\u5b58\\u5728\\uff01'}"
+  }, {
+    "name" : "test_input",
+    "value" : "{'username': 'SUE_ZK04_A02', 'password': 'UXExMjM0NTY=', 'cnName': u'\\u7528\\u62372', 'confirm': 'Qq123456', 'roleId': 138, 'phoneNumber': '13200000002'}"
+  }, {
+    "name" : "title",
+    "value" : "'用户名填写重复，提示用户名已存在'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('userId')" ]
+  },
+  "source" : "368fbb46b56768c6.json",
+  "parameterValues" : [ "{'status': 500, 'message': u'\\u7528\\u6237\\u540d\\u5df2\\u5b58\\u5728\\uff01'}", "{'username': 'SUE_ZK04_A02', 'password': 'UXExMjM0NTY=', 'cnName': u'\\u7528\\u62372', 'confirm': 'Qq123456', 'roleId': 138, 'phoneNumber': '13200000002'}", "'用户名填写重复，提示用户名已存在'" ]
+}

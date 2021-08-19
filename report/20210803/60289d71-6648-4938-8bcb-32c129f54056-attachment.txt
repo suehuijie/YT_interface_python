@@ -1,0 +1,5 @@
+INFO     root:logs.py:31 新增地址前，查询sql数据结果为0
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://mytest.ytoglobal.com:8080 "POST /gateway/app/address/save HTTP/1.1" 200 101
+INFO     root:logs.py:31 接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-08-02 17:52:28'}
+INFO     root:logs.py:31 新增地址后，查询sql数据结果为1

@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c97f0473-50ec-4f91-a08d-8deb18397d62" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestAPI_test_list_api.coverage" NAME="pytest for test_api.TestAPI.test_list_api Coverage Results" MODIFIED="1627523377377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestShop_test_shop_add.coverage" NAME="pytest for test_api.TestShop.test_shop_add Coverage Results" MODIFIED="1627536756476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestShop_test_shop_list.coverage" NAME="pytest for test_api.TestShop.test_shop_list Coverage Results" MODIFIED="1627543121317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestShop_test_shop_update.coverage" NAME="pytest for test_api.TestShop.test_shop_update Coverage Results" MODIFIED="1627537933874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestShop.coverage" NAME="pytest for test_api.TestShop Coverage Results" MODIFIED="1627546998149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestPerson_test_111.coverage" NAME="pytest for test_api.TestPerson.test_111 Coverage Results" MODIFIED="1627629732358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestRole_test_111.coverage" NAME="pytest for test_api.TestRole.test_111 Coverage Results" MODIFIED="1627614637912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestRole_test_role_list.coverage" NAME="pytest for test_api.TestRole.test_role_list Coverage Results" MODIFIED="1627614762051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestPerson_test_person_info.coverage" NAME="pytest for test_api.TestPerson.test_person_info Coverage Results" MODIFIED="1627627883297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_in_test_set_py.coverage" NAME="pytest in test_set.py Coverage Results" MODIFIED="1627634842090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_in_test_api_py.coverage" NAME="pytest in test_api.py Coverage Results" MODIFIED="1627550709267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestRole.coverage" NAME="pytest for test_api.TestRole Coverage Results" MODIFIED="1627622424945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestUser_test_user_update.coverage" NAME="pytest for test_api.TestUser.test_user_update Coverage Results" MODIFIED="1627625417796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_set_TestUser_test_user_add.coverage" NAME="pytest for test_set.TestUser.test_user_add Coverage Results" MODIFIED="1627634191331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestAPI.coverage" NAME="pytest for test_api.TestAPI Coverage Results" MODIFIED="1627460859862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestAddress_test_addr_update.coverage" NAME="pytest for test_api.TestAddress.test_addr_update Coverage Results" MODIFIED="1627537866167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$execSql.coverage" NAME="execSql Coverage Results" MODIFIED="1627633461919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestRole_test_role_update.coverage" NAME="pytest for test_api.TestRole.test_role_update Coverage Results" MODIFIED="1627549269110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_set_TestPerson_test_111.coverage" NAME="pytest for test_set.TestPerson.test_111 Coverage Results" MODIFIED="1627634263119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_set_TestAddress_test_addr_add.coverage" NAME="pytest for test_set.TestAddress.test_addr_add Coverage Results" MODIFIED="1627634937173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$readFile.coverage" NAME="readFile Coverage Results" MODIFIED="1627524093984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestRole_test_role_auth.coverage" NAME="pytest for test_api.TestRole.test_role_auth Coverage Results" MODIFIED="1627551940763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestAPI_test_update_api.coverage" NAME="pytest for test_api.TestAPI.test_update_api Coverage Results" MODIFIED="1627523318139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$readEnvFile.coverage" NAME="readEnvFile Coverage Results" MODIFIED="1627449585055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestUser_test_111.coverage" NAME="pytest for test_api.TestUser.test_111 Coverage Results" MODIFIED="1627625337512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestPerson_test_person_update.coverage" NAME="pytest for test_api.TestPerson.test_person_update Coverage Results" MODIFIED="1627628324336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestShop_test_shop_status.coverage" NAME="pytest for test_api.TestShop.test_shop_status Coverage Results" MODIFIED="1627538665807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestUser_test_user_status.coverage" NAME="pytest for test_api.TestUser.test_user_status Coverage Results" MODIFIED="1627626212184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_set_TestAPI.coverage" NAME="pytest for test_set.TestAPI Coverage Results" MODIFIED="1627635281755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_waybill_TestWaybillManage_test_111.coverage" NAME="pytest for test_waybill.TestWaybillManage.test_111 Coverage Results" MODIFIED="1627892567723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1627465043602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/YT_interface2$login.coverage" NAME="login Coverage Results" MODIFIED="1627465052621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestUser_test_user_add.coverage" NAME="pytest for test_api.TestUser.test_user_add Coverage Results" MODIFIED="1627623234203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$readData.coverage" NAME="readData Coverage Results" MODIFIED="1627551738426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestAddress_test_addr_add.coverage" NAME="pytest for test_api.TestAddress.test_addr_add Coverage Results" MODIFIED="1627550729909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestAddress_test_addr_delete.coverage" NAME="pytest for test_api.TestAddress.test_addr_delete Coverage Results" MODIFIED="1627528697475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+    <SUITE FILE_PATH="coverage/YT_interface2$pytest_for_test_api_TestRole_test_role_add.coverage" NAME="pytest for test_api.TestRole.test_role_add Coverage Results" MODIFIED="1627548768256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/set" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="824759224">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="2" />
+          <entry key="py" value="56" />
+          <entry key="txt" value="2" />
+          <entry key="updatedata" value="1" />
+          <entry key="yaml" value="26" />
+          <entry key="说明" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="56" />
+          <entry key="YAML" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="23" />
+          <entry key="py" value="6670" />
+          <entry key="yaml" value="1278" />
+          <entry key="说明" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="60" />
+          <entry key="Python" value="6670" />
+          <entry key="YAML" value="1278" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/readData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding>
+                <marker date="1627898508181" expanded="true" signature="119:124" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/test_waybill.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#43#53#0" expanded="true" />
+                <marker date="1627897309093" expanded="true" signature="510:511" ph="..." />
+                <marker date="1627897309093" expanded="true" signature="760:761" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/test_set.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="80" column="42" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/2021_08_02.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1764">
+              <caret line="98" column="54" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/url.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/execSql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1044">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+              <folding>
+                <element signature="e#44#69#0" expanded="true" />
+                <marker date="1627897869203" expanded="true" signature="159:164" ph="..." />
+                <marker date="1627897869203" expanded="true" signature="1051:1057" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/说明">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../YT_interface/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login_userinfo['userId']</find>
+      <find>api</find>
+      <find>Base</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/说明" />
+        <option value="$PROJECT_DIR$/common/logs.py" />
+        <option value="$PROJECT_DIR$/common/readEnvFile.py" />
+        <option value="$PROJECT_DIR$/config/sql.yaml" />
+        <option value="$PROJECT_DIR$/testdata/updatedata.yaml" />
+        <option value="$PROJECT_DIR$/testcase/set/test_api.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/config/uat.yaml" />
+        <option value="$PROJECT_DIR$/testdata/sql.yaml" />
+        <option value="$PROJECT_DIR$/testdata/order.txt" />
+        <option value="$PROJECT_DIR$/testdata/testdata.yaml" />
+        <option value="$PROJECT_DIR$/config/url.yaml" />
+        <option value="$PROJECT_DIR$/testcase/_init_.py" />
+        <option value="$PROJECT_DIR$/testcase/Base.py" />
+        <option value="$PROJECT_DIR$/testcase/conftest.py" />
+        <option value="$PROJECT_DIR$/testcase/basic.py" />
+        <option value="$PROJECT_DIR$/testcase/basiclogic.py" />
+        <option value="$PROJECT_DIR$/testcase/test_set.py" />
+        <option value="$PROJECT_DIR$/testcase/test_waybill.py" />
+        <option value="$PROJECT_DIR$/common/execSql.py" />
+        <option value="$PROJECT_DIR$/common/login.py" />
+        <option value="$PROJECT_DIR$/common/readFile.py" />
+        <option value="$PROJECT_DIR$/common/readData.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="834" />
+    <option name="y" value="269" />
+    <option name="width" value="999" />
+    <option name="height" value="943" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YT_interface2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YT_interface2" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iSelenium_Python-master/iSelenium_Python" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\shj\YT_interface2\testcase" />
+      <recent name="F:\shj\YT_interface2\testdata" />
+      <recent name="F:\shj\YT_interface2\testcase\set" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_waybill.TestWaybillManage.test_111">
+    <configuration name="Unnamed" type="tests" factoryName="py.test">
+      <module name="YT_interface2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="F:\shj\YT_interface2\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_set.TestAPI" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YT_interface2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_set.TestAPI&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_set.TestAddress.test_addr_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YT_interface2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_set.TestAddress.test_addr_add&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_set.TestPerson.test_111" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YT_interface2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_set.TestPerson.test_111&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_waybill.TestWaybillManage.test_111" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YT_interface2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_waybill.TestWaybillManage.test_111&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_set.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="YT_interface2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_set.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.Unnamed" />
+      <item itemvalue="Python tests.pytest in test_set.py" />
+      <item itemvalue="Python tests.pytest for test_set.TestPerson.test_111" />
+      <item itemvalue="Python tests.pytest for test_set.TestAddress.test_addr_add" />
+      <item itemvalue="Python tests.pytest for test_set.TestAPI" />
+      <item itemvalue="Python tests.pytest for test_waybill.TestWaybillManage.test_111" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_waybill.TestWaybillManage.test_111" />
+        <item itemvalue="Python tests.pytest for test_set.TestAPI" />
+        <item itemvalue="Python tests.pytest for test_set.TestAddress.test_addr_add" />
+        <item itemvalue="Python tests.pytest in test_set.py" />
+        <item itemvalue="Python tests.pytest for test_set.TestPerson.test_111" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c97f0473-50ec-4f91-a08d-8deb18397d62" name="Default Changelist" comment="" />
+      <created>1627442217465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627442217465</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_test_set_TestUser_test_user_add - 2021.07.30 at 16h 36m 38s.xml">
+      <configuration name="pytest for test_set.TestUser.test_user_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_set_TestPerson_test_111 - 2021.07.30 at 16h 37m 49s.xml">
+      <configuration name="pytest for test_set.TestPerson.test_111" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_set_py - 2021.07.30 at 16h 48m 13s.xml">
+      <configuration name="pytest in test_set.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_set_TestAddress_test_addr_add - 2021.07.30 at 16h 49m 02s.xml">
+      <configuration name="pytest for test_set.TestAddress.test_addr_add" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_set_TestAPI - 2021.07.30 at 16h 54m 53s.xml">
+      <configuration name="pytest for test_set.TestAPI" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_waybill_TestWaybillManage_test_111 - 2021.08.02 at 16h 12m 55s.xml">
+      <configuration name="pytest for test_waybill.TestWaybillManage.test_111" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_waybill_TestWaybillManage_test_111 - 2021.08.02 at 16h 13m 31s.xml">
+      <configuration name="pytest for test_waybill.TestWaybillManage.test_111" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_waybill_TestWaybillManage_test_111 - 2021.08.02 at 16h 14m 20s.xml">
+      <configuration name="pytest for test_waybill.TestWaybillManage.test_111" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_waybill_TestWaybillManage_test_111 - 2021.08.02 at 16h 15m 09s.xml">
+      <configuration name="pytest for test_waybill.TestWaybillManage.test_111" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_waybill_TestWaybillManage_test_111 - 2021.08.02 at 16h 23m 03s.xml">
+      <configuration name="pytest for test_waybill.TestWaybillManage.test_111" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="834" y="269" width="999" height="943" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2257721" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.297561" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5506118" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.302799" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testdata/updatedata" />
+    <entry file="file://$PROJECT_DIR$/testdata/updatedata.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/testdata.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/sql.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdata/order.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13374">
+          <caret line="814" selection-start-line="814" selection-end-line="814" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15840">
+          <caret line="940" selection-start-line="940" selection-end-line="940" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/_init_.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2021_07_28.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/basiclogic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="5" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/uat.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" />
+          <folding>
+            <element signature="e#44#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-end-line="1" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding>
+            <marker date="1627898508181" expanded="true" signature="119:124" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/2021_08_02.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="98" column="54" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/url.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/execSql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+          <folding>
+            <element signature="e#44#69#0" expanded="true" />
+            <marker date="1627897869203" expanded="true" signature="159:164" ph="..." />
+            <marker date="1627897869203" expanded="true" signature="1051:1057" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../YT_interface/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/test_waybill.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#43#53#0" expanded="true" />
+            <marker date="1627897309093" expanded="true" signature="510:511" ph="..." />
+            <marker date="1627897309093" expanded="true" signature="760:761" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/test_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

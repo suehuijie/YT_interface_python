@@ -1,0 +1,24 @@
+api:
+  list: select api_key, api_token FROM t_basic_api WHERE user_id = {}
+address:
+  count: select count(id) FROM t_basic_address WHERE id != '1421033169750065152' and user_id = {}
+  id: select id FROM t_basic_address WHERE id != '1421033169750065152' and user_id = {}
+  user: select user_id from t_basic_address where id != '1421033169750065152' and user_id = {}
+shop:
+  count: select count(id) FROM t_basic_shop WHERE user_id = {}
+  id: select id FROM t_basic_shop WHERE user_id = {} and shop_code != 'LC77653248'
+  status: select is_disabled FROM t_basic_shop WHERE id = {} and shop_code != 'LC77653248'
+  shopinfo: select shop_code, shop_name from t_basic_shop WHERE user_id = {}
+  clear: delete from t_basic_shop WHERE user_id = '500000560' and shop_code != 'LC77653248'
+role:
+  count: select count(id) FROM t_auth_role WHERE create_user_id ='500000560'
+  id: select id FROM t_auth_role WHERE create_user_id ='500000560' and role_code != 'ROLE_138'
+  clear_role: delete from t_auth_role WHERE create_user_id ='500000560' and role_code != 'ROLE_138'
+  clear_permission: delete from t_auth_role_permission WHERE create_user_id ='500000560' and role_id in {}
+user:
+  count: SELECT count(id) FROM t_user_account WHERE create_user_id = '500000560' and username not in ('SUE_ZK04_01', 'SUE_ZK04_02')
+  id: SELECT id FROM t_user_account WHERE create_user_id = '500000560' and username not in ('SUE_ZK04_01', 'SUE_ZK04_02')
+  userinfo: SELECT id,username, is_enabled FROM t_user_account WHERE create_user_id = '500000560' and username not in ('SUE_ZK04_01', 'SUE_ZK04_02')
+  clear_user: delete from t_user_account WHERE create_user_id = '500000560' and username not in ('SUE_ZK04_01', 'SUE_ZK04_02')
+  clear_relate: delete from t_auth_user_role WHERE create_user_id  ='500000560' and user_id in {}
+  clear_userdata: delete from t_csm_customer_contact WHERE id in {}

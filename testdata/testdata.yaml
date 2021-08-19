@@ -1,0 +1,90 @@
+set:
+  address_data:
+    -
+      - name: "新增地址-自动化01"
+        mobile: "18509251760"
+        countryCode: "CN"
+        countryName: "中国"
+        provinceCode: "640000"
+        provinceName: "宁夏回族自治区"
+        cityCode: "640300"
+        cityName: "吴忠市"
+        districtCode: "640302"
+        districtName: "利通区"
+        detailAddress: "锦业路创新商务公寓"
+        identityCode: "ID"
+        identityNumber: "610628199105201727"
+        company: "宇通科技公司"
+        zipCode: "717200"
+      - message: "OK"
+        status: 200
+      - 正确用户名，正确密码
+    -
+      - name: "sue1"
+        mobile: "18509251761"
+      - message: "countryName:...edValue: null"
+        status: 200
+      - 正确用户名，错误密码
+
+  shop_data:
+    -
+      - shopName: "本地店铺-自动化01"
+      - message: "OK"
+        status: 200
+      - 正确店铺名
+
+  role_data:
+    -
+      - roleName: "角色-自动化01"
+        remark: "新增角色测试"
+      - message: "OK"
+        status: 200
+      - 正确角色名，备注
+    -
+      - roleName: "角色-自动化02"
+      - message: "OK"
+        status: 200
+      - 正确角色名，备注为空
+
+  user_data:
+    -
+      - username: "SUE_ZK04_A01"
+        password: "UXExMjM0NTY="
+        confirm: "Qq123456"
+        cnName: "用户1"
+        enName: "englishname"
+        roleId: 138
+        phoneNumber: "13200000001"
+        email: "1063514310@qq.com"
+      - message: "OK"
+        status: 200
+      - 正确的用户信息（填写所有字段）
+    -
+      - username: "SUE_ZK04_A02"
+        password: "UXExMjM0NTY="
+        confirm: "Qq123456"
+        cnName: "用户2"
+        roleId: 138
+        phoneNumber: "13200000002"
+      - message: "OK"
+        status: 200
+      - 正确的用户信息（填写必填字段）
+    -
+      - username: "SUE_ZK04_A02"
+        password: "UXExMjM0NTY="
+        confirm: "Qq123456"
+        cnName: "用户2"
+        roleId: 138
+        phoneNumber: "13200000002"
+      - message: "用户名已存在！"
+        status: 500
+      - 用户名填写重复，提示用户名已存在
+
+waybill:
+  waybill_manager:
+    -
+      - fromId: 500000560
+        count: 10000
+      - message: "success"
+        status: 0
+      - 正确的用户名和分配单量，分配单量成功

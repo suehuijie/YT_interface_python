@@ -1,0 +1,5 @@
+INFO     root:logs.py:31 新增子账号前，查询sql数据结果为2
+DEBUG    urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:452 https://mytest.ytoglobal.com:8080 "POST /gateway/app/subUser/add HTTP/1.1" 200 93
+INFO     root:logs.py:31 接口响应数据结果为{'status': 500, 'message': '用户名已存在！', 'time': '2021-08-02 16:51:01'}
+INFO     root:logs.py:31 新增子账号后，查询sql数据结果为2

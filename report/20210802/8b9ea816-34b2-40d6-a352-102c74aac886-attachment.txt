@@ -1,0 +1,8 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://mytest.ytoglobal.com:8080 "POST /gateway/app/user/login HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://mytest.ytoglobal.com:8080 "POST /gateway/app/user/login HTTP/1.1" 200 None
+INFO     root:logs.py:31 查询sql数据结果为(u'0ccfa35d27176c9f8b7745c99ad9b210', u'495cf867b4c3e9fe3d9c189e25eff1f606a92253b2d0088924d139e79d958913')
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): mytest.ytoglobal.com:8080
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://mytest.ytoglobal.com:8080 "POST /gateway/app/apiSetting/query/list HTTP/1.1" 200 343
+INFO     root:logs.py:31 接口响应数据结果为{u'userName': u'SUE_ZK04', u'status': 1, u'updateTime': 1628478023000L, u'apiKey': u'0ccfa35d27176c9f8b7745c99ad9b210', u'userId': 500000560, u'createTime': 1626684387000L, u'createUserId': 500000560, u'apiToken': u'495cf867b4c3e9fe3d9c189e25eff1f606a92253b2d0088924d139e79d958913', u'id': 406464167056773120L, u'isDeleted': 0}

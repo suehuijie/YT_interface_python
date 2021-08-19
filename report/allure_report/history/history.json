@@ -1,0 +1,4589 @@
+{
+  "60c415f794bc065b623bd5e3b1f3b5c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "2b854e36cb24919a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/2b854e36cb24919a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153730,
+        "stop" : 1629252153730,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1a964f8bdbe5bb4d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/1a964f8bdbe5bb4d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165766115,
+        "stop" : 1629165766115,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c41e8b1c2fdcfac6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/c41e8b1c2fdcfac6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464869,
+        "stop" : 1629099464869,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3f9af7de8498621",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/f3f9af7de8498621",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145258,
+        "stop" : 1628820145258,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de61275a2002a351",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/de61275a2002a351",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758710,
+        "stop" : 1628733758710,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5534990d1243eb4a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/5534990d1243eb4a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396624,
+        "stop" : 1628647396624,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2fb690613ce033cf",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/2fb690613ce033cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560924994,
+        "stop" : 1628560925412,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "a15c26bc28932e41",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/a15c26bc28932e41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559646350,
+        "stop" : 1628559646789,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "67bb41a95b7b62df",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/67bb41a95b7b62df",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347514,
+        "stop" : 1628559347514,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bcf23232d3f414cd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/bcf23232d3f414cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503919166,
+        "stop" : 1628503919530,
+        "duration" : 364
+      }
+    }, {
+      "uid" : "7c674ca08c69875f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/7c674ca08c69875f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503751946,
+        "stop" : 1628503752315,
+        "duration" : 369
+      }
+    }, {
+      "uid" : "ad32582a022f2f44",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/ad32582a022f2f44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501525009,
+        "stop" : 1628501525387,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "9e665c7d1115cb9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/9e665c7d1115cb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501070375,
+        "stop" : 1628501070840,
+        "duration" : 465
+      }
+    }, {
+      "uid" : "782a6bf2fbfdd423",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/782a6bf2fbfdd423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500142555,
+        "stop" : 1628500142936,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "8f154b5eddd33d4d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/8f154b5eddd33d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499760692,
+        "stop" : 1628499761070,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "59ffda945c096fbc",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/59ffda945c096fbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499304055,
+        "stop" : 1628499304440,
+        "duration" : 385
+      }
+    }, {
+      "uid" : "43884131daa54376",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/43884131daa54376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498877710,
+        "stop" : 1628498880740,
+        "duration" : 3030
+      }
+    } ]
+  },
+  "77a0d8a2501ddf78706661c025c48353" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "f6677e6f11b3f6f6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/f6677e6f11b3f6f6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153638,
+        "stop" : 1629252153638,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8394bf27fab3556",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/8394bf27fab3556",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765412,
+        "stop" : 1629165765413,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "31f9347637a9a163",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/31f9347637a9a163",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099463945,
+        "stop" : 1629099463946,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2633dba66411c46a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/2633dba66411c46a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144530,
+        "stop" : 1628820144530,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c92d38f25ff88441",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/c92d38f25ff88441",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758028,
+        "stop" : 1628733758029,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a75abbd30dba433c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/a75abbd30dba433c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647395932,
+        "stop" : 1628647395932,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d16c8cae755b61f1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/d16c8cae755b61f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560917000,
+        "stop" : 1628560917446,
+        "duration" : 446
+      }
+    }, {
+      "uid" : "4d4df7d13b0777ee",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/4d4df7d13b0777ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559638607,
+        "stop" : 1628559639051,
+        "duration" : 444
+      }
+    }, {
+      "uid" : "57309e40be9f57e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/57309e40be9f57e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347426,
+        "stop" : 1628559347426,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "680f079f106351bc",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/680f079f106351bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503912293,
+        "stop" : 1628503912681,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "b8da26dcf8925208",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/b8da26dcf8925208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503744644,
+        "stop" : 1628503745038,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "6f454563b8c036a5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/6f454563b8c036a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501518124,
+        "stop" : 1628501518527,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "c7e43026a0cdfecb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/c7e43026a0cdfecb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501063453,
+        "stop" : 1628501063855,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "d1a7e98dc5ef578f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/d1a7e98dc5ef578f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500135162,
+        "stop" : 1628500135558,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "ad237df2cf268fa2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/ad237df2cf268fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499752338,
+        "stop" : 1628499752725,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "886241a663b24d26",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/886241a663b24d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499297179,
+        "stop" : 1628499297571,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "49199a27bec36772",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/49199a27bec36772",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498869510,
+        "stop" : 1628498869901,
+        "duration" : 391
+      }
+    } ]
+  },
+  "222e35001313d7347499aeb115005414" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "c3220bf6892ca68e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/c3220bf6892ca68e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153703,
+        "stop" : 1629252153703,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "76ca1da42798b05",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/76ca1da42798b05",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765924,
+        "stop" : 1629165765924,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db5e29f4bfb4bcce",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/db5e29f4bfb4bcce",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464619,
+        "stop" : 1629099464619,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "afa77f1829eb047e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/afa77f1829eb047e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145055,
+        "stop" : 1628820145055,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c591656f1cd3030c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/c591656f1cd3030c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758525,
+        "stop" : 1628733758525,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89e2aa07dde22995",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/89e2aa07dde22995",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396436,
+        "stop" : 1628647396436,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb4ef4585b16d64b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/eb4ef4585b16d64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560922527,
+        "stop" : 1628560922527,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb88bb752d6b47b9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/bb88bb752d6b47b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559643914,
+        "stop" : 1628559643914,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc2839f325f5b0f3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/dc2839f325f5b0f3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347487,
+        "stop" : 1628559347487,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5705a525c16a240d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/5705a525c16a240d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503916995,
+        "stop" : 1628503916995,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2891971abf37df41",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/2891971abf37df41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503749781,
+        "stop" : 1628503749781,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "32614411fcd13310",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/32614411fcd13310",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501522841,
+        "stop" : 1628501522842,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b2fd3dda1080e267",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/b2fd3dda1080e267",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501068172,
+        "stop" : 1628501068172,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38acc62a6239dd29",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/38acc62a6239dd29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500140226,
+        "stop" : 1628500140226,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f6375c8fe2f4010",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/4f6375c8fe2f4010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499758262,
+        "stop" : 1628499758262,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8da254338eabfca7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/8da254338eabfca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499301896,
+        "stop" : 1628499301896,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "40ecd4163ef6e4dc",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/40ecd4163ef6e4dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498875530,
+        "stop" : 1628498875530,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3ce6a0761b83ef8633eff7623791a978" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "8eea064f058c3906",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/8eea064f058c3906",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153741,
+        "stop" : 1629252153741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "52e44b3d1d9d6bac",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/52e44b3d1d9d6bac",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165766147,
+        "stop" : 1629165766147,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d7e4ab7605956b4a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/d7e4ab7605956b4a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464904,
+        "stop" : 1629099464904,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bc458633d8bac302",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/bc458633d8bac302",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145291,
+        "stop" : 1628820145291,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ec608778ce30199",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/2ec608778ce30199",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758741,
+        "stop" : 1628733758741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fd78c2de01e5d16a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/fd78c2de01e5d16a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396656,
+        "stop" : 1628647396656,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8932ac2eba43380f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/8932ac2eba43380f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560925420,
+        "stop" : 1628560925420,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa2f9a0d2341efd2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/aa2f9a0d2341efd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559646796,
+        "stop" : 1628559646796,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8bd537dc47a1de24",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/8bd537dc47a1de24",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347524,
+        "stop" : 1628559347524,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ebaf4a372d7f40d2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/ebaf4a372d7f40d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503919537,
+        "stop" : 1628503919537,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1015b8d3184efa89",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/1015b8d3184efa89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503752322,
+        "stop" : 1628503752322,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2495885e9cdf4bad",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/2495885e9cdf4bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501525396,
+        "stop" : 1628501525396,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be9085aebaa4289a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/be9085aebaa4289a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501070847,
+        "stop" : 1628501070847,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bda22a27da05c21e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/bda22a27da05c21e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500142944,
+        "stop" : 1628500142944,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b6f7dd80b48d76da",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/b6f7dd80b48d76da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499761079,
+        "stop" : 1628499761079,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5949646c36949f00",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/5949646c36949f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499304449,
+        "stop" : 1628499304449,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51dcd75d568bc53c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/51dcd75d568bc53c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498880748,
+        "stop" : 1628498880749,
+        "duration" : 1
+      }
+    } ]
+  },
+  "0e051db1860da983a6665d9c6717632f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "ce1acadbb01d178e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/ce1acadbb01d178e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153681,
+        "stop" : 1629252153681,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "abb14c8362cbd721",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/abb14c8362cbd721",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765785,
+        "stop" : 1629165765785,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff3b11c43eac6f2e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/ff3b11c43eac6f2e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464403,
+        "stop" : 1629099464404,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "49dc52d9ba16389",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/49dc52d9ba16389",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144913,
+        "stop" : 1628820144913,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "74c5a72c34311244",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/74c5a72c34311244",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758387,
+        "stop" : 1628733758387,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c46f933390b0e73",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/3c46f933390b0e73",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396299,
+        "stop" : 1628647396299,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a7d27dac767befca",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/a7d27dac767befca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560920821,
+        "stop" : 1628560921260,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "e49a652aa8bffe3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/e49a652aa8bffe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559642174,
+        "stop" : 1628559642623,
+        "duration" : 449
+      }
+    }, {
+      "uid" : "3cfc6a828542e06f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/3cfc6a828542e06f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347466,
+        "stop" : 1628559347466,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "193dfa48ce2249b2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/193dfa48ce2249b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503915462,
+        "stop" : 1628503915858,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "276373c06fe1dc47",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/276373c06fe1dc47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503748144,
+        "stop" : 1628503748648,
+        "duration" : 504
+      }
+    }, {
+      "uid" : "b983c1b7961017eb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/b983c1b7961017eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501521308,
+        "stop" : 1628501521696,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "fb65468c1ee58bf0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/fb65468c1ee58bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501066641,
+        "stop" : 1628501067039,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "1446cb97b008162f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/1446cb97b008162f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500138647,
+        "stop" : 1628500139048,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "1fdd3798ca50c4be",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/1fdd3798ca50c4be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499756376,
+        "stop" : 1628499756767,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "575297d54c3c1da8",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/575297d54c3c1da8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499300325,
+        "stop" : 1628499300761,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "e6c700800fa50e89",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/e6c700800fa50e89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498873740,
+        "stop" : 1628498874132,
+        "duration" : 392
+      }
+    } ]
+  },
+  "b0ce450385b755be48e82f23454f45f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "bada8507cdd7bb20",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/bada8507cdd7bb20",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153676,
+        "stop" : 1629252153676,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6552d0cee3d25f46",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/6552d0cee3d25f46",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765676,
+        "stop" : 1629165765676,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d8108c8e985be6f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/8d8108c8e985be6f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464252,
+        "stop" : 1629099464252,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ca9f3717d112a97d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/ca9f3717d112a97d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144806,
+        "stop" : 1628820144807,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b0d1e4faabe4c2d1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/b0d1e4faabe4c2d1",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758280,
+        "stop" : 1628733758280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5eeda870349294ee",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/5eeda870349294ee",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396194,
+        "stop" : 1628647396194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "634e46c5178a6acf",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/634e46c5178a6acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560920282,
+        "stop" : 1628560920717,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "daf12585d3410b1a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/daf12585d3410b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559641614,
+        "stop" : 1628559642066,
+        "duration" : 452
+      }
+    }, {
+      "uid" : "8e08e542745971ca",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/8e08e542745971ca",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347461,
+        "stop" : 1628559347461,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c110bede7aa1a79",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/2c110bede7aa1a79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503914980,
+        "stop" : 1628503915372,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "166c9ee36a825d8a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/166c9ee36a825d8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503747660,
+        "stop" : 1628503748054,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "2667634c3af3cd93",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/2667634c3af3cd93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501520827,
+        "stop" : 1628501521219,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "6d4128a9e056717b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/6d4128a9e056717b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501066164,
+        "stop" : 1628501066552,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "93a00916c4d34292",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/93a00916c4d34292",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500138165,
+        "stop" : 1628500138557,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "ad9e0ebfaefec2b7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/ad9e0ebfaefec2b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499755580,
+        "stop" : 1628499756019,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "169b213800fa33dc",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/169b213800fa33dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499299848,
+        "stop" : 1628499300239,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "75106d944df5f8a1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/75106d944df5f8a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498873269,
+        "stop" : 1628498873651,
+        "duration" : 382
+      }
+    } ]
+  },
+  "79d593ef6d849f17fed597f8ab803208" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "751e314e9a985547",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/751e314e9a985547",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153612,
+        "stop" : 1629252153612,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "10a7e77808fbd27b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/10a7e77808fbd27b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165765083,
+        "stop" : 1629165765406,
+        "duration" : 323
+      }
+    }, {
+      "uid" : "11d7dc60103b24e5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/11d7dc60103b24e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099463583,
+        "stop" : 1629099463938,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "6cdd5f557340138d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/6cdd5f557340138d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820144195,
+        "stop" : 1628820144524,
+        "duration" : 329
+      }
+    }, {
+      "uid" : "bee269b6de946e33",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/bee269b6de946e33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733757709,
+        "stop" : 1628733758022,
+        "duration" : 313
+      }
+    }, {
+      "uid" : "b02cd45897543ef",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/b02cd45897543ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647395627,
+        "stop" : 1628647395927,
+        "duration" : 300
+      }
+    }, {
+      "uid" : "d127ce82c94ba99e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/d127ce82c94ba99e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560916643,
+        "stop" : 1628560916994,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "f7ebc6186df9239e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/f7ebc6186df9239e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559637833,
+        "stop" : 1628559638600,
+        "duration" : 767
+      }
+    }, {
+      "uid" : "d25c2cccd41401c0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/d25c2cccd41401c0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347422,
+        "stop" : 1628559347422,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2285bcba23486f71",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/2285bcba23486f71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503911967,
+        "stop" : 1628503912288,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "b48adbef05100103",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/b48adbef05100103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503744317,
+        "stop" : 1628503744638,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "c88e93458117eb1d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/c88e93458117eb1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501517801,
+        "stop" : 1628501518118,
+        "duration" : 317
+      }
+    }, {
+      "uid" : "d0d0331cd09ce682",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/d0d0331cd09ce682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501063089,
+        "stop" : 1628501063444,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "dd22efc1510c8124",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/dd22efc1510c8124",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500134824,
+        "stop" : 1628500135154,
+        "duration" : 330
+      }
+    }, {
+      "uid" : "4e6e35b6e7b791ef",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/4e6e35b6e7b791ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499752014,
+        "stop" : 1628499752332,
+        "duration" : 318
+      }
+    }, {
+      "uid" : "2a4d659ec7224201",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/2a4d659ec7224201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499296844,
+        "stop" : 1628499297172,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "c42b53f9ed8bf861",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/c42b53f9ed8bf861",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498869172,
+        "stop" : 1628498869504,
+        "duration" : 332
+      }
+    } ]
+  },
+  "bbbbfc1d60e74d9125435c7fdf23f5ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "ceb141762815da6b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/ceb141762815da6b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153692,
+        "stop" : 1629252153692,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "586b23940a0bd562",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/586b23940a0bd562",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765865,
+        "stop" : 1629165765866,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "294d7d5336e64335",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/294d7d5336e64335",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464554,
+        "stop" : 1629099464555,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "268a6703d54734b3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/268a6703d54734b3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144994,
+        "stop" : 1628820144994,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe773e84fb9e6c60",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/fe773e84fb9e6c60",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758466,
+        "stop" : 1628733758466,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5d1b7e00b396a1f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/b5d1b7e00b396a1f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396380,
+        "stop" : 1628647396380,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3093cba8e413562",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/f3093cba8e413562",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560921720,
+        "stop" : 1628560922114,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "506e6d07d34d147e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/506e6d07d34d147e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559643086,
+        "stop" : 1628559643485,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "3d1118af340a09a2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/3d1118af340a09a2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347477,
+        "stop" : 1628559347477,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff02e4fb1b6c622b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/ff02e4fb1b6c622b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503916273,
+        "stop" : 1628503916617,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "6919f2b113ea2ab",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/6919f2b113ea2ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503749055,
+        "stop" : 1628503749406,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "a15f6021e2fba2dd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/a15f6021e2fba2dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501522109,
+        "stop" : 1628501522457,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "c668f7848f789233",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/c668f7848f789233",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501067440,
+        "stop" : 1628501067791,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "1db1b5c238246d4b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/1db1b5c238246d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500139460,
+        "stop" : 1628500139816,
+        "duration" : 356
+      }
+    }, {
+      "uid" : "d9d9adbcb363c725",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/d9d9adbcb363c725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499757181,
+        "stop" : 1628499757534,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "4ec2d6c3b55f8760",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/4ec2d6c3b55f8760",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499301178,
+        "stop" : 1628499301518,
+        "duration" : 340
+      }
+    }, {
+      "uid" : "b895e8ccb707b469",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/b895e8ccb707b469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498874544,
+        "stop" : 1628498875154,
+        "duration" : 610
+      }
+    } ]
+  },
+  "8da4f6b101e9943164247867fee46015" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "4858c9933a51f0b1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/4858c9933a51f0b1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153725,
+        "stop" : 1629252153725,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8e1445f5273d177",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/8e1445f5273d177",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165766085,
+        "stop" : 1629165766086,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "892421c4946cc0dd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/892421c4946cc0dd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464838,
+        "stop" : 1629099464838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fdae56934b5276f0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/fdae56934b5276f0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145225,
+        "stop" : 1628820145226,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "778ffc2165623f05",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/778ffc2165623f05",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758682,
+        "stop" : 1628733758682,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "37dd4296a0862d6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/37dd4296a0862d6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396587,
+        "stop" : 1628647396587,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cea955807736b840",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/cea955807736b840",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560924569,
+        "stop" : 1628560924988,
+        "duration" : 419
+      }
+    }, {
+      "uid" : "cd0d37d919442c14",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/cd0d37d919442c14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559645935,
+        "stop" : 1628559646345,
+        "duration" : 410
+      }
+    }, {
+      "uid" : "144c6caef3b71cbf",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/144c6caef3b71cbf",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347509,
+        "stop" : 1628559347509,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ffe8c6279b543c8f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/ffe8c6279b543c8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503918780,
+        "stop" : 1628503919162,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "8c2404de0b7dc866",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/8c2404de0b7dc866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503751567,
+        "stop" : 1628503751942,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "1e904b287db25cb2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/1e904b287db25cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501524629,
+        "stop" : 1628501525003,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "aad0c9c27b9c095e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/aad0c9c27b9c095e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501069988,
+        "stop" : 1628501070368,
+        "duration" : 380
+      }
+    }, {
+      "uid" : "611084d20d200210",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/611084d20d200210",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500142172,
+        "stop" : 1628500142550,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "6dd718fcd550b9a2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/6dd718fcd550b9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499760308,
+        "stop" : 1628499760687,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "6383888aebf8833",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/6383888aebf8833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499303676,
+        "stop" : 1628499304050,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "fa8b24794dac0c87",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/fa8b24794dac0c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498877331,
+        "stop" : 1628498877703,
+        "duration" : 372
+      }
+    } ]
+  },
+  "3ea121bd42487ed02f3ca9df81014a5f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "3c12ea24d2da492b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/3c12ea24d2da492b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629252153986,
+        "stop" : 1629252153986,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dcde11d117bdf7f0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/dcde11d117bdf7f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165766765,
+        "stop" : 1629165766765,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7e67bf5cdde5f42",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/f7e67bf5cdde5f42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099465594,
+        "stop" : 1629099465594,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e2444aa1c5fa387b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/e2444aa1c5fa387b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820145916,
+        "stop" : 1628820145916,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97ee09b2ea006745",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/97ee09b2ea006745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733759370,
+        "stop" : 1628733759370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "36ed1b80b09d5790",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/36ed1b80b09d5790",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647397261,
+        "stop" : 1628647397261,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4360d35b2265fa67",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/4360d35b2265fa67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560926792,
+        "stop" : 1628560926793,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e8334a53168684a0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/e8334a53168684a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559648164,
+        "stop" : 1628559648165,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8026882ed8eea277",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/8026882ed8eea277",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559348640,
+        "stop" : 1628559348641,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "686e862c97344a4f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/686e862c97344a4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503920845,
+        "stop" : 1628503920845,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7dfd39bf35250ee6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/7dfd39bf35250ee6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503753550,
+        "stop" : 1628503753550,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "178c66bad802d370",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/178c66bad802d370",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501526623,
+        "stop" : 1628501526623,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "832787093b99b481",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/832787093b99b481",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501072235,
+        "stop" : 1628501072235,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13018c31ec5b9ee1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/13018c31ec5b9ee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500144186,
+        "stop" : 1628500144187,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "db4c58275663c8d4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/db4c58275663c8d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499762312,
+        "stop" : 1628499762313,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "56de6cfb1ea02a64",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/56de6cfb1ea02a64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499305959,
+        "stop" : 1628499305960,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ec47ba64654bb58b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/ec47ba64654bb58b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498882476,
+        "stop" : 1628498882476,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9fcb40e738241c4e06bdab3eeb11bcc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "ad56507afe2f6ac9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/ad56507afe2f6ac9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153649,
+        "stop" : 1629252153649,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94f766df0b0998a9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/94f766df0b0998a9",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765499,
+        "stop" : 1629165765499,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d6ffa4ce81ca849",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/9d6ffa4ce81ca849",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464062,
+        "stop" : 1629099464063,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cbfcd048c7bfb039",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/cbfcd048c7bfb039",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144614,
+        "stop" : 1628820144614,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9bd1c108c77340d4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/9bd1c108c77340d4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758112,
+        "stop" : 1628733758112,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2775effafb9c5235",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/2775effafb9c5235",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396025,
+        "stop" : 1628647396025,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c9e10cc96d6f2b2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/2c9e10cc96d6f2b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560917931,
+        "stop" : 1628560918340,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "71bfb23ac556513b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/71bfb23ac556513b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559639549,
+        "stop" : 1628559639938,
+        "duration" : 389
+      }
+    }, {
+      "uid" : "b946082f4563e211",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/b946082f4563e211",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347437,
+        "stop" : 1628559347437,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "459fd6a04526f0e7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/459fd6a04526f0e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503913132,
+        "stop" : 1628503913475,
+        "duration" : 343
+      }
+    }, {
+      "uid" : "e8cc01b2abb4dd0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/e8cc01b2abb4dd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503745528,
+        "stop" : 1628503745869,
+        "duration" : 341
+      }
+    }, {
+      "uid" : "fd6a1b994f66cc78",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/fd6a1b994f66cc78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501518989,
+        "stop" : 1628501519334,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "6ab518089bd0be65",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/6ab518089bd0be65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501064301,
+        "stop" : 1628501064652,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "a9324b7576d5270d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/a9324b7576d5270d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500136011,
+        "stop" : 1628500136393,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "aaf956b8274f01e0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/aaf956b8274f01e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499753162,
+        "stop" : 1628499753514,
+        "duration" : 352
+      }
+    }, {
+      "uid" : "ac2e6d583ec3dea",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/ac2e6d583ec3dea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499298017,
+        "stop" : 1628499298361,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "1172e333eba7ee5c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/1172e333eba7ee5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498870346,
+        "stop" : 1628498871749,
+        "duration" : 1403
+      }
+    } ]
+  },
+  "9ba920276145bfb6bc76c92693961d71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "cb2c1ef967acaedb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/cb2c1ef967acaedb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153758,
+        "stop" : 1629252153758,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1f3c9aa0284b52c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/e1f3c9aa0284b52c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165766760,
+        "stop" : 1629165766761,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c87d6ea6daa2c7b8",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/c87d6ea6daa2c7b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099465589,
+        "stop" : 1629099465590,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "55adc77cf72846ec",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/55adc77cf72846ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820145913,
+        "stop" : 1628820145913,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bbed1e21660aa43f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/bbed1e21660aa43f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733759366,
+        "stop" : 1628733759367,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a9303cf33dec8cfd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/a9303cf33dec8cfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647397257,
+        "stop" : 1628647397257,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1e29aa160f8dd37",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/a1e29aa160f8dd37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560926789,
+        "stop" : 1628560926789,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e5568dd1d6315203",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/e5568dd1d6315203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559648161,
+        "stop" : 1628559648161,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ba091461ae20f097",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/ba091461ae20f097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559348636,
+        "stop" : 1628559348636,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2839d6a0684e7e21",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/2839d6a0684e7e21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503920841,
+        "stop" : 1628503920841,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4048e411f157054a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/4048e411f157054a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503753547,
+        "stop" : 1628503753547,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f424f054ee635d00",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/f424f054ee635d00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501526620,
+        "stop" : 1628501526620,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "765445ec836d4f4b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/765445ec836d4f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501072232,
+        "stop" : 1628501072232,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "70865d8eae7e8015",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/70865d8eae7e8015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500144182,
+        "stop" : 1628500144182,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "be4f32b8dfe1a3f6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/be4f32b8dfe1a3f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499762309,
+        "stop" : 1628499762309,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b71a9172caf4b727",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/b71a9172caf4b727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499305956,
+        "stop" : 1628499305956,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96641585c1417d48",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/96641585c1417d48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498882472,
+        "stop" : 1628498882472,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4a3ec83242bd1557834f6a2368ee37c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "b8c0de569b7bb214",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/b8c0de569b7bb214",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153671,
+        "stop" : 1629252153671,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b596d645c6cf8f3a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/b596d645c6cf8f3a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765643,
+        "stop" : 1629165765644,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dae91293c6371fc7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/dae91293c6371fc7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464216,
+        "stop" : 1629099464216,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a827874bc769f34",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/7a827874bc769f34",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144774,
+        "stop" : 1628820144774,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "17d79b2491f248cd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/17d79b2491f248cd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758249,
+        "stop" : 1628733758249,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e61e47b9bccd14f4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/e61e47b9bccd14f4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396162,
+        "stop" : 1628647396163,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "299444accd4b4f76",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/299444accd4b4f76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560919840,
+        "stop" : 1628560920277,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "98f6e452e7ca7385",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/98f6e452e7ca7385",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559641174,
+        "stop" : 1628559641608,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "4466536a6119c0fe",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/4466536a6119c0fe",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347457,
+        "stop" : 1628559347457,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8653c7a039a941bf",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/8653c7a039a941bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503914589,
+        "stop" : 1628503914977,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "50ca240eeb556cdb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/50ca240eeb556cdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503747247,
+        "stop" : 1628503747647,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "d619eaf938162e96",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/d619eaf938162e96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501520447,
+        "stop" : 1628501520822,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "ee75c4756fcb772d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/ee75c4756fcb772d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501065771,
+        "stop" : 1628501066159,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "e579bc25c20d6504",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/e579bc25c20d6504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500137778,
+        "stop" : 1628500138159,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "4c4d5fede15fbed9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/4c4d5fede15fbed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499755185,
+        "stop" : 1628499755575,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "344894eb7a813929",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/344894eb7a813929",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499299457,
+        "stop" : 1628499299844,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "c6f16fbfdeca51f2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/c6f16fbfdeca51f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498872872,
+        "stop" : 1628498873262,
+        "duration" : 390
+      }
+    } ]
+  },
+  "c142ccd1e0b0810ef831e412fe1c7a1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "4a756c27c3782297",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/4a756c27c3782297",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153752,
+        "stop" : 1629252153752,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "afc0248858548cab",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/afc0248858548cab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165766456,
+        "stop" : 1629165766751,
+        "duration" : 295
+      }
+    }, {
+      "uid" : "f3bbb38189954420",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/f3bbb38189954420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099465261,
+        "stop" : 1629099465555,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "e330a9c9464c6b0d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/e330a9c9464c6b0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820145611,
+        "stop" : 1628820145903,
+        "duration" : 292
+      }
+    }, {
+      "uid" : "4efccdd942ae8e0f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/4efccdd942ae8e0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733759055,
+        "stop" : 1628733759358,
+        "duration" : 303
+      }
+    }, {
+      "uid" : "59415cc54b042e3e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/59415cc54b042e3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647396958,
+        "stop" : 1628647397249,
+        "duration" : 291
+      }
+    }, {
+      "uid" : "94659c4accf44fc4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/94659c4accf44fc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560926416,
+        "stop" : 1628560926779,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "e707f760da4c289",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/e707f760da4c289",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559647793,
+        "stop" : 1628559648152,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "86dc03df375288dd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/86dc03df375288dd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347534,
+        "stop" : 1628559347534,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5106e61e10b470ef",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/5106e61e10b470ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503920437,
+        "stop" : 1628503920832,
+        "duration" : 395
+      }
+    }, {
+      "uid" : "7a3d1accb5df5b84",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/7a3d1accb5df5b84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503753204,
+        "stop" : 1628503753539,
+        "duration" : 335
+      }
+    }, {
+      "uid" : "278fd7cd9cd4ffe6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/278fd7cd9cd4ffe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501526288,
+        "stop" : 1628501526610,
+        "duration" : 322
+      }
+    }, {
+      "uid" : "4d43ff119467bb37",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/4d43ff119467bb37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501071902,
+        "stop" : 1628501072223,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "22716b86d5ca8511",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/22716b86d5ca8511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500143853,
+        "stop" : 1628500144172,
+        "duration" : 319
+      }
+    }, {
+      "uid" : "4b56512cf0026379",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/4b56512cf0026379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499761971,
+        "stop" : 1628499762299,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "8adb14af25f71958",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/8adb14af25f71958",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499305616,
+        "stop" : 1628499305946,
+        "duration" : 330
+      }
+    }, {
+      "uid" : "da2d6c257c845c1c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/da2d6c257c845c1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498882133,
+        "stop" : 1628498882463,
+        "duration" : 330
+      }
+    } ]
+  },
+  "402493687cf03b2b0e30e29210f9f152" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "82b9b7dcd02e2d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/82b9b7dcd02e2d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153698,
+        "stop" : 1629252153698,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2d491edd323740d8",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/2d491edd323740d8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765895,
+        "stop" : 1629165765896,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fe6c9c43102c973e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/fe6c9c43102c973e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464586,
+        "stop" : 1629099464586,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1cf41aac8b499d06",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/1cf41aac8b499d06",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145025,
+        "stop" : 1628820145025,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "afb9c512a1c95221",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/afb9c512a1c95221",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758497,
+        "stop" : 1628733758497,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6fea696028cfe4a2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/6fea696028cfe4a2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396408,
+        "stop" : 1628647396408,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "91edbe972fc25446",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/91edbe972fc25446",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560922119,
+        "stop" : 1628560922522,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "8a0e69d25e2e33da",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/8a0e69d25e2e33da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559643500,
+        "stop" : 1628559643909,
+        "duration" : 409
+      }
+    }, {
+      "uid" : "a750cbfa662237ab",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/a750cbfa662237ab",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347482,
+        "stop" : 1628559347482,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6494ac887ecdad2a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/6494ac887ecdad2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503916622,
+        "stop" : 1628503916991,
+        "duration" : 369
+      }
+    }, {
+      "uid" : "75512eca00b2ba7e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/75512eca00b2ba7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503749410,
+        "stop" : 1628503749778,
+        "duration" : 368
+      }
+    }, {
+      "uid" : "f7cd45857228c029",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/f7cd45857228c029",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501522463,
+        "stop" : 1628501522835,
+        "duration" : 372
+      }
+    }, {
+      "uid" : "87c4c93d4e20d725",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/87c4c93d4e20d725",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501067795,
+        "stop" : 1628501068165,
+        "duration" : 370
+      }
+    }, {
+      "uid" : "81c027ee3537fe40",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/81c027ee3537fe40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500139821,
+        "stop" : 1628500140215,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "895228dc8925fef4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/895228dc8925fef4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499757544,
+        "stop" : 1628499758257,
+        "duration" : 713
+      }
+    }, {
+      "uid" : "46195c8f3c16ed68",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/46195c8f3c16ed68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499301523,
+        "stop" : 1628499301889,
+        "duration" : 366
+      }
+    }, {
+      "uid" : "1eabd51b1492b0b3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/1eabd51b1492b0b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498875159,
+        "stop" : 1628498875525,
+        "duration" : 366
+      }
+    } ]
+  },
+  "8c0f104f87c8845eb4e63676f6f01dbd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "42bf07250d69c7c1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/42bf07250d69c7c1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153746,
+        "stop" : 1629252153746,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "22d8badd4eab64cb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/22d8badd4eab64cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165766176,
+        "stop" : 1629165766451,
+        "duration" : 275
+      }
+    }, {
+      "uid" : "1f6262a9a677f6b3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/1f6262a9a677f6b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099464942,
+        "stop" : 1629099465223,
+        "duration" : 281
+      }
+    }, {
+      "uid" : "dd9aaaa5a3c01b20",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/dd9aaaa5a3c01b20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820145323,
+        "stop" : 1628820145602,
+        "duration" : 279
+      }
+    }, {
+      "uid" : "96c3e2f175262e56",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/96c3e2f175262e56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733758769,
+        "stop" : 1628733759050,
+        "duration" : 281
+      }
+    }, {
+      "uid" : "c02f4fb5c67608dd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/c02f4fb5c67608dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647396685,
+        "stop" : 1628647396954,
+        "duration" : 269
+      }
+    }, {
+      "uid" : "d6733defeadfbca3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/d6733defeadfbca3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560926062,
+        "stop" : 1628560926411,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "dbca503a3e850b39",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/dbca503a3e850b39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559647437,
+        "stop" : 1628559647788,
+        "duration" : 351
+      }
+    }, {
+      "uid" : "9c8cfd3c35fa30c6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/9c8cfd3c35fa30c6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347529,
+        "stop" : 1628559347529,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3f9d5c1f0750a16",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/f3f9d5c1f0750a16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503920104,
+        "stop" : 1628503920432,
+        "duration" : 328
+      }
+    }, {
+      "uid" : "5303b80271c52175",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/5303b80271c52175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503752886,
+        "stop" : 1628503753199,
+        "duration" : 313
+      }
+    }, {
+      "uid" : "15ee5b5f2eb8bf98",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/15ee5b5f2eb8bf98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501525962,
+        "stop" : 1628501526281,
+        "duration" : 319
+      }
+    }, {
+      "uid" : "9f558c078e0e4b5a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/9f558c078e0e4b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501071579,
+        "stop" : 1628501071897,
+        "duration" : 318
+      }
+    }, {
+      "uid" : "abb17f130849c475",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/abb17f130849c475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500143522,
+        "stop" : 1628500143847,
+        "duration" : 325
+      }
+    }, {
+      "uid" : "6ccca5046b58c3f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/6ccca5046b58c3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499761644,
+        "stop" : 1628499761965,
+        "duration" : 321
+      }
+    }, {
+      "uid" : "9cefb5d2e08425b1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/9cefb5d2e08425b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499305278,
+        "stop" : 1628499305610,
+        "duration" : 332
+      }
+    }, {
+      "uid" : "32af7d33c4317ad8",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/32af7d33c4317ad8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498881807,
+        "stop" : 1628498882128,
+        "duration" : 321
+      }
+    } ]
+  },
+  "c97964472474c4eb80381a2f0eab8f58" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "fd6714c0a92bfffa",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/fd6714c0a92bfffa",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153719,
+        "stop" : 1629252153719,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b31c3c72c47073f7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/b31c3c72c47073f7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165766035,
+        "stop" : 1629165766035,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f74df9759695eee",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/3f74df9759695eee",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464757,
+        "stop" : 1629099464759,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1bd10f71533adadb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/1bd10f71533adadb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145173,
+        "stop" : 1628820145173,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25422cba7d6e5787",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/25422cba7d6e5787",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758633,
+        "stop" : 1628733758633,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec83a515f59e4ec2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/ec83a515f59e4ec2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396545,
+        "stop" : 1628647396546,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ee5683f92d748753",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/ee5683f92d748753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560924111,
+        "stop" : 1628560924563,
+        "duration" : 452
+      }
+    }, {
+      "uid" : "c266209a390da0d3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/c266209a390da0d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559645472,
+        "stop" : 1628559645928,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "c0e588bb8f151078",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/c0e588bb8f151078",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347504,
+        "stop" : 1628559347504,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cc8ad3218a35219c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/cc8ad3218a35219c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503918381,
+        "stop" : 1628503918775,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "ff7315bf8c2b61db",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/ff7315bf8c2b61db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503751183,
+        "stop" : 1628503751561,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "b76a02315a2d6dd9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/b76a02315a2d6dd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501524234,
+        "stop" : 1628501524621,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "5316c8b485d3c46d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/5316c8b485d3c46d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501069592,
+        "stop" : 1628501069980,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "773e9c3da07c17f2",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/773e9c3da07c17f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500141781,
+        "stop" : 1628500142165,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "378fc729189a9a43",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/378fc729189a9a43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499759910,
+        "stop" : 1628499760301,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "8b0480821feab178",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/8b0480821feab178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499303269,
+        "stop" : 1628499303669,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "b65c78df3859ae58",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/b65c78df3859ae58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498876934,
+        "stop" : 1628498877325,
+        "duration" : 391
+      }
+    } ]
+  },
+  "c65a4f37bb1c59ed6118d26aab2e32cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "8107dc9cc896f68f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/8107dc9cc896f68f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252152753,
+        "stop" : 1629252152753,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "755aced6bb07dab7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/755aced6bb07dab7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165764979,
+        "stop" : 1629165764980,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "eadf294bf2610cf4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/eadf294bf2610cf4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099463419,
+        "stop" : 1629099463420,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5fa758724db58b37",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/5fa758724db58b37",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144090,
+        "stop" : 1628820144090,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8de488fc640c6dc",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/8de488fc640c6dc",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733757604,
+        "stop" : 1628733757604,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e15dcfd813019eed",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/e15dcfd813019eed",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647395499,
+        "stop" : 1628647395499,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a015fe88462b7605",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/a015fe88462b7605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560916239,
+        "stop" : 1628560916639,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "4495a024b8f7d3d6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/4495a024b8f7d3d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559637410,
+        "stop" : 1628559637827,
+        "duration" : 417
+      }
+    }, {
+      "uid" : "bb6c77a4f7a78465",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/bb6c77a4f7a78465",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559326255,
+        "stop" : 1628559326255,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a1246998502734",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/2a1246998502734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503911581,
+        "stop" : 1628503911962,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "6acc7d9a040094c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/6acc7d9a040094c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503743918,
+        "stop" : 1628503744311,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "c35b8bba54b9cb03",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/c35b8bba54b9cb03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501517425,
+        "stop" : 1628501517795,
+        "duration" : 370
+      }
+    }, {
+      "uid" : "3fbbe8edff79827d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/3fbbe8edff79827d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501062725,
+        "stop" : 1628501063085,
+        "duration" : 360
+      }
+    }, {
+      "uid" : "8583e3deaf8269d9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/8583e3deaf8269d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500134464,
+        "stop" : 1628500134819,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "348721b27e5dcb7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/348721b27e5dcb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499751628,
+        "stop" : 1628499752008,
+        "duration" : 380
+      }
+    }, {
+      "uid" : "d7a64e062f6244b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/d7a64e062f6244b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499296477,
+        "stop" : 1628499296840,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "8dcf84eba821b580",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/8dcf84eba821b580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498867564,
+        "stop" : 1628498869167,
+        "duration" : 1603
+      }
+    } ]
+  },
+  "d273ddf0d319b10aa905207413d751b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "fde3339b2af99705",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/fde3339b2af99705",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153665,
+        "stop" : 1629252153665,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a5bad9c919cba434",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/a5bad9c919cba434",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765611,
+        "stop" : 1629165765611,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a03583b5131358b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/7a03583b5131358b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464182,
+        "stop" : 1629099464182,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b88a335388246c7c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/b88a335388246c7c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144741,
+        "stop" : 1628820144741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c76881b691bc6342",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/c76881b691bc6342",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758217,
+        "stop" : 1628733758218,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "67f5a5727709ccc3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/67f5a5727709ccc3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396131,
+        "stop" : 1628647396132,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5ee5f1dbf8be2d14",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/5ee5f1dbf8be2d14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560919445,
+        "stop" : 1628560919833,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "c326e9e88db27b7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/c326e9e88db27b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559640779,
+        "stop" : 1628559641169,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "f5700985eadc8146",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/f5700985eadc8146",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347452,
+        "stop" : 1628559347452,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a6a94b9af2a8f18a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/a6a94b9af2a8f18a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503914231,
+        "stop" : 1628503914585,
+        "duration" : 354
+      }
+    }, {
+      "uid" : "1ac36ee02c70b1b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/1ac36ee02c70b1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503746895,
+        "stop" : 1628503747243,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "ac6c00d468e810de",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/ac6c00d468e810de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501520099,
+        "stop" : 1628501520442,
+        "duration" : 343
+      }
+    }, {
+      "uid" : "14aae045667feed1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/14aae045667feed1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501065410,
+        "stop" : 1628501065764,
+        "duration" : 354
+      }
+    }, {
+      "uid" : "15ba0baa1eb8e178",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/15ba0baa1eb8e178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500137419,
+        "stop" : 1628500137773,
+        "duration" : 354
+      }
+    }, {
+      "uid" : "412516bff9e4427c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/412516bff9e4427c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499754822,
+        "stop" : 1628499755181,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "60fbd8be62886ac1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/60fbd8be62886ac1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499299108,
+        "stop" : 1628499299452,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "cde040edf54da39d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/cde040edf54da39d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498872519,
+        "stop" : 1628498872865,
+        "duration" : 346
+      }
+    } ]
+  },
+  "378dd6c5b900fdd1f2ad9c1330d72a66" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "5cfa47d3175ee073",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/5cfa47d3175ee073",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153709,
+        "stop" : 1629252153709,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4c022f1a4bf9d43",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/f4c022f1a4bf9d43",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765953,
+        "stop" : 1629165765954,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f1c3a72c0030829f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/f1c3a72c0030829f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464658,
+        "stop" : 1629099464658,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "430b596011fb04d4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/430b596011fb04d4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145085,
+        "stop" : 1628820145085,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "127c7690c3f0b65b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/127c7690c3f0b65b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758554,
+        "stop" : 1628733758554,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5a72f0499e3d0fb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/5a72f0499e3d0fb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396465,
+        "stop" : 1628647396465,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b776be70c18546a9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/b776be70c18546a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560922825,
+        "stop" : 1628560923443,
+        "duration" : 618
+      }
+    }, {
+      "uid" : "cfe9712faadea932",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/cfe9712faadea932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559644222,
+        "stop" : 1628559644835,
+        "duration" : 613
+      }
+    }, {
+      "uid" : "e167fcbeef5f2056",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/e167fcbeef5f2056",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347492,
+        "stop" : 1628559347492,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec11ed5f829b79b7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/ec11ed5f829b79b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503917250,
+        "stop" : 1628503917814,
+        "duration" : 564
+      }
+    }, {
+      "uid" : "72bae162bf9be69b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/72bae162bf9be69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503750034,
+        "stop" : 1628503750587,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "76965d034fe7c6b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/76965d034fe7c6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501523093,
+        "stop" : 1628501523654,
+        "duration" : 561
+      }
+    }, {
+      "uid" : "1a6fe0d9d91b96a3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/1a6fe0d9d91b96a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501068425,
+        "stop" : 1628501069007,
+        "duration" : 582
+      }
+    }, {
+      "uid" : "569d5771be9c7b28",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/569d5771be9c7b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500140635,
+        "stop" : 1628500141200,
+        "duration" : 565
+      }
+    }, {
+      "uid" : "5fdf21b3bdf2036d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/5fdf21b3bdf2036d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499758788,
+        "stop" : 1628499759342,
+        "duration" : 554
+      }
+    }, {
+      "uid" : "1a470205957938b6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/1a470205957938b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499302152,
+        "stop" : 1628499302705,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "6fce2a5965d9d2d5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/6fce2a5965d9d2d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498875781,
+        "stop" : 1628498876348,
+        "duration" : 567
+      }
+    } ]
+  },
+  "11aaf27a79185dc927467199c24a6d19" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "b234aa11b2679a74",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/b234aa11b2679a74",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153644,
+        "stop" : 1629252153644,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5d9f8264914e9de0",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/5d9f8264914e9de0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765456,
+        "stop" : 1629165765456,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d4519525a9c0b984",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/d4519525a9c0b984",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099463991,
+        "stop" : 1629099463992,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a64e95a2735fedad",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/a64e95a2735fedad",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144573,
+        "stop" : 1628820144573,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4468a4d36e05136a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/4468a4d36e05136a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758071,
+        "stop" : 1628733758071,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7e05e190e4fde4f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/b7e05e190e4fde4f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647395983,
+        "stop" : 1628647395983,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5d1859bc12572b4a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/5d1859bc12572b4a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryName:...edValue: null' == 'countryName:...edValue: null'\n  - countryName: 国家名称不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628560917453,
+        "stop" : 1628560917872,
+        "duration" : 419
+      }
+    }, {
+      "uid" : "ac2ce3d37fc05fd7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/ac2ce3d37fc05fd7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryName:...edValue: null' == 'countryName:...edValue: null'\n  - countryName: 国家名称不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628559639059,
+        "stop" : 1628559639490,
+        "duration" : 431
+      }
+    }, {
+      "uid" : "2b68fd657a83a11d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/2b68fd657a83a11d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347431,
+        "stop" : 1628559347431,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe7cf3c65fab4a83",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/fe7cf3c65fab4a83",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'detailAddres...edValue: null' == 'countryName:...edValue: null'\n  - detailAddress: 详细地址不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628503912688,
+        "stop" : 1628503913075,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "3bd74819dba86ce9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/3bd74819dba86ce9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryCode:...edValue: null' == 'countryName:...edValue: null'\n  - countryCode: 国家二字码不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628503745044,
+        "stop" : 1628503745459,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "a4fbb2956cf6d6d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/a4fbb2956cf6d6d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryName:...edValue: null' == 'countryName:...edValue: null'\n  - countryName: 国家名称不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628501518534,
+        "stop" : 1628501518928,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "f7d6299f3680117b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/f7d6299f3680117b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryCode:...edValue: null' == 'countryName:...edValue: null'\n  - countryCode: 国家二字码不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628501063865,
+        "stop" : 1628501064249,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "df633090e8862e73",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/df633090e8862e73",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryCode:...edValue: null' == 'countryName:...edValue: null'\n  - countryCode: 国家二字码不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628500135565,
+        "stop" : 1628500135959,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "c0de05abb2c96063",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/c0de05abb2c96063",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryCode:...edValue: null' == 'countryName:...edValue: null'\n  - countryCode: 国家二字码不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628499752732,
+        "stop" : 1628499753111,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "c89092a55c4dd8a3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/c89092a55c4dd8a3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryCode:...edValue: null' == 'countryName:...edValue: null'\n  - countryCode: 国家二字码不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628499297578,
+        "stop" : 1628499297968,
+        "duration" : 390
+      }
+    }, {
+      "uid" : "df79d8165af88948",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/df79d8165af88948",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'countryCode:...edValue: null' == 'countryName:...edValue: null'\n  - countryCode: 国家二字码不能为空, rejectedValue: null\n  + countryName:...edValue: null",
+      "time" : {
+        "start" : 1628498869908,
+        "stop" : 1628498870293,
+        "duration" : 385
+      }
+    } ]
+  },
+  "fdd22f95267bff1749b7a86054c77e7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "f8cce54a3a4a5844",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/f8cce54a3a4a5844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629252153989,
+        "stop" : 1629252153990,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f878443d9d3a1293",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/f878443d9d3a1293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165766768,
+        "stop" : 1629165766768,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e2e87977c57835b3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/e2e87977c57835b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099465597,
+        "stop" : 1629099465598,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9f6ebf0a2a016f8d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/9f6ebf0a2a016f8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820145919,
+        "stop" : 1628820145919,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ef400b948b968c5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/1ef400b948b968c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733759372,
+        "stop" : 1628733759373,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "614c5670a5f424a1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/614c5670a5f424a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647397263,
+        "stop" : 1628647397264,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "591a0c1c857bf2cc",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/591a0c1c857bf2cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560926795,
+        "stop" : 1628560926795,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec61eaa17b2f14cb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/ec61eaa17b2f14cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559648167,
+        "stop" : 1628559648167,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "10dba8e760daf60a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/10dba8e760daf60a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559348643,
+        "stop" : 1628559348644,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cb788c00117d4234",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/cb788c00117d4234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503920847,
+        "stop" : 1628503920848,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3474eeeacbdc92f5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/3474eeeacbdc92f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503753553,
+        "stop" : 1628503753553,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "58105c8151b66fff",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/58105c8151b66fff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501526627,
+        "stop" : 1628501526627,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64f11ed0cd06db16",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/64f11ed0cd06db16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501072238,
+        "stop" : 1628501072238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4680129847b47c5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/f4680129847b47c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500144189,
+        "stop" : 1628500144189,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cb75ae0b35ea18d7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/cb75ae0b35ea18d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499762315,
+        "stop" : 1628499762315,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5fc23b469152d7a4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/5fc23b469152d7a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499305962,
+        "stop" : 1628499305962,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "181ce99aa30cc1e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/181ce99aa30cc1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498882479,
+        "stop" : 1628498882480,
+        "duration" : 1
+      }
+    } ]
+  },
+  "13a5fa8338337b75065962a87d1f335d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "c6112d457161fa78",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/c6112d457161fa78",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153714,
+        "stop" : 1629252153714,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3e8e53c649c248c6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/3e8e53c649c248c6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765994,
+        "stop" : 1629165765995,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "10d583f7f7271d7e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/10d583f7f7271d7e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464703,
+        "stop" : 1629099464703,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38431d9300a9d602",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/38431d9300a9d602",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820145130,
+        "stop" : 1628820145130,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ed4cdd29b6ca43ab",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/ed4cdd29b6ca43ab",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758593,
+        "stop" : 1628733758593,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b821003b43e510c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/b821003b43e510c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396504,
+        "stop" : 1628647396505,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2ff3d6a6731431a4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/2ff3d6a6731431a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560923449,
+        "stop" : 1628560924104,
+        "duration" : 655
+      }
+    }, {
+      "uid" : "f8b4d5361f61a91d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/f8b4d5361f61a91d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559644842,
+        "stop" : 1628559645454,
+        "duration" : 612
+      }
+    }, {
+      "uid" : "5972694a96f906e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/5972694a96f906e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347499,
+        "stop" : 1628559347499,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e30c416cd0f636ad",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/e30c416cd0f636ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503917820,
+        "stop" : 1628503918375,
+        "duration" : 555
+      }
+    }, {
+      "uid" : "5c98610635f48cc4",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/5c98610635f48cc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503750593,
+        "stop" : 1628503751177,
+        "duration" : 584
+      }
+    }, {
+      "uid" : "13c0d4b6a0b8c161",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/13c0d4b6a0b8c161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501523663,
+        "stop" : 1628501524227,
+        "duration" : 564
+      }
+    }, {
+      "uid" : "56e8eab0919e616f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/56e8eab0919e616f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501069015,
+        "stop" : 1628501069584,
+        "duration" : 569
+      }
+    }, {
+      "uid" : "32bc6447da8bd257",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/32bc6447da8bd257",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500141207,
+        "stop" : 1628500141773,
+        "duration" : 566
+      }
+    }, {
+      "uid" : "cac60f1f3e617ec5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/cac60f1f3e617ec5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499759350,
+        "stop" : 1628499759903,
+        "duration" : 553
+      }
+    }, {
+      "uid" : "db61a2d04019e58b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/db61a2d04019e58b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499302712,
+        "stop" : 1628499303262,
+        "duration" : 550
+      }
+    }, {
+      "uid" : "581181813125e0be",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/581181813125e0be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498876363,
+        "stop" : 1628498876926,
+        "duration" : 563
+      }
+    } ]
+  },
+  "ba287d5081ec0768a9b33a38b2dbee84" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "4aeb0e8472243ccb",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/4aeb0e8472243ccb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153660,
+        "stop" : 1629252153660,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ce8dc2cc383582a",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/1ce8dc2cc383582a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765565,
+        "stop" : 1629165765565,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85798a2f038e9cfe",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/85798a2f038e9cfe",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464134,
+        "stop" : 1629099464134,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86ca4e70f6a70112",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/86ca4e70f6a70112",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144682,
+        "stop" : 1628820144682,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fbb655b6af49e85d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/fbb655b6af49e85d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758175,
+        "stop" : 1628733758176,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "58f126a340160c84",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/58f126a340160c84",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396089,
+        "stop" : 1628647396090,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4a8b8752121f09a3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/4a8b8752121f09a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560918738,
+        "stop" : 1628560919439,
+        "duration" : 701
+      }
+    }, {
+      "uid" : "e9fa8d0b0d51b51d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/e9fa8d0b0d51b51d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559640334,
+        "stop" : 1628559640771,
+        "duration" : 437
+      }
+    }, {
+      "uid" : "6a3d20ac5ae53279",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/6a3d20ac5ae53279",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347446,
+        "stop" : 1628559347446,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d68a6f09c6129470",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/d68a6f09c6129470",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503913824,
+        "stop" : 1628503914225,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "b452f03185596add",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/b452f03185596add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503746231,
+        "stop" : 1628503746890,
+        "duration" : 659
+      }
+    }, {
+      "uid" : "32837d412f9078a6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/32837d412f9078a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501519696,
+        "stop" : 1628501520092,
+        "duration" : 396
+      }
+    }, {
+      "uid" : "44c8212f19a18911",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/44c8212f19a18911",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501065011,
+        "stop" : 1628501065402,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "21e3ce43b2f98d27",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/21e3ce43b2f98d27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500137004,
+        "stop" : 1628500137412,
+        "duration" : 408
+      }
+    }, {
+      "uid" : "aa7c8c4bce70fe3f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/aa7c8c4bce70fe3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499753875,
+        "stop" : 1628499754808,
+        "duration" : 933
+      }
+    }, {
+      "uid" : "5a897119b1e4b90f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/5a897119b1e4b90f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499298716,
+        "stop" : 1628499299100,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "3e946686dbd80923",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/3e946686dbd80923",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498872103,
+        "stop" : 1628498872512,
+        "duration" : 409
+      }
+    } ]
+  },
+  "b9c1e7dec4cc4b3e316a76648b970d94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "acb190648a5e370e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/acb190648a5e370e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153687,
+        "stop" : 1629252153687,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8830acfd1ceeef77",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/8830acfd1ceeef77",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765825,
+        "stop" : 1629165765826,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4121363fd700b4c6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/4121363fd700b4c6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464459,
+        "stop" : 1629099464460,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c14922a74c00564d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/c14922a74c00564d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144953,
+        "stop" : 1628820144953,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f08d7f0a998b0102",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/f08d7f0a998b0102",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758426,
+        "stop" : 1628733758426,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "590c592e70441af6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/590c592e70441af6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396340,
+        "stop" : 1628647396340,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab6af1aff75a6564",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/ab6af1aff75a6564",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560921266,
+        "stop" : 1628560921714,
+        "duration" : 448
+      }
+    }, {
+      "uid" : "378afa8f6f5f183b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/378afa8f6f5f183b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559642635,
+        "stop" : 1628559643080,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "8a64a5b7af58a099",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/8a64a5b7af58a099",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347472,
+        "stop" : 1628559347472,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fb077d56ef14a990",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/fb077d56ef14a990",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503915864,
+        "stop" : 1628503916267,
+        "duration" : 403
+      }
+    }, {
+      "uid" : "dcfa2073ae0e7239",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/dcfa2073ae0e7239",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503748655,
+        "stop" : 1628503749049,
+        "duration" : 394
+      }
+    }, {
+      "uid" : "b2e5342616d01b34",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/b2e5342616d01b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501521704,
+        "stop" : 1628501522102,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "9ede62cf2c58b877",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/9ede62cf2c58b877",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501067046,
+        "stop" : 1628501067432,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "2d87d78ec08564ab",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/2d87d78ec08564ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500139054,
+        "stop" : 1628500139453,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "52704e2e13f2fd6",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/52704e2e13f2fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499756774,
+        "stop" : 1628499757173,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "de904f314b72dfef",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/de904f314b72dfef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499300768,
+        "stop" : 1628499301170,
+        "duration" : 402
+      }
+    }, {
+      "uid" : "f6bedaa520fa8859",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/f6bedaa520fa8859",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498874141,
+        "stop" : 1628498874537,
+        "duration" : 396
+      }
+    } ]
+  },
+  "52e13c83e60ea6cd2e56e74419e01d97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "781c35585e2d2e39",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/781c35585e2d2e39",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153736,
+        "stop" : 1629252153736,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db040d54a2757fde",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/db040d54a2757fde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629165766143,
+        "stop" : 1629165766144,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "75442fea145c7938",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/75442fea145c7938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629099464900,
+        "stop" : 1629099464901,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a8683a7f6824e43d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/a8683a7f6824e43d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628820145288,
+        "stop" : 1628820145288,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6bcca3f0272c93a1",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/6bcca3f0272c93a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628733758738,
+        "stop" : 1628733758739,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "674afcfe52122c9e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/674afcfe52122c9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628647396653,
+        "stop" : 1628647396653,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "432a561d7f5dfe11",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/432a561d7f5dfe11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560925417,
+        "stop" : 1628560925417,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8e5a39eae5e20fd7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/8e5a39eae5e20fd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559646793,
+        "stop" : 1628559646793,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5ac1fbfb7bbd8a33",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/5ac1fbfb7bbd8a33",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347519,
+        "stop" : 1628559347519,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "70ab2b804178c1dd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/70ab2b804178c1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503919534,
+        "stop" : 1628503919535,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2c8bcb20ce7c7267",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/2c8bcb20ce7c7267",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503752319,
+        "stop" : 1628503752319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1b05c4977b307a54",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/1b05c4977b307a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501525393,
+        "stop" : 1628501525393,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e35ddfcad12c5d3d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/e35ddfcad12c5d3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501070844,
+        "stop" : 1628501070844,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "54f07ed43b535645",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/54f07ed43b535645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500142941,
+        "stop" : 1628500142941,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8012eabfbbeb2f10",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/8012eabfbbeb2f10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499761076,
+        "stop" : 1628499761076,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8d3897b82c92da7",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/d8d3897b82c92da7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499304445,
+        "stop" : 1628499304446,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fcc222dade231b90",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/fcc222dade231b90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498880745,
+        "stop" : 1628498880746,
+        "duration" : 1
+      }
+    } ]
+  },
+  "feaef1d937ed37fc5341b427e0e64f08" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "db298017ff42922",
+      "reportUrl" : "http://localhost:8080/job/auto_test/55/allure/#testresult/db298017ff42922",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1629252153655,
+        "stop" : 1629252153655,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b160439f2cfa3b5",
+      "reportUrl" : "http://localhost:8080/job/auto_test/54/allure/#testresult/8b160439f2cfa3b5",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629165765531,
+        "stop" : 1629165765532,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "dd021b311dfb60dd",
+      "reportUrl" : "http://localhost:8080/job/auto_test/53/allure/#testresult/dd021b311dfb60dd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1629099464096,
+        "stop" : 1629099464097,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "76219cf0bc98bfef",
+      "reportUrl" : "http://localhost:8080/job/auto_test/52/allure/#testresult/76219cf0bc98bfef",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628820144646,
+        "stop" : 1628820144646,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4cae74512f8eb75",
+      "reportUrl" : "http://localhost:8080/job/auto_test/51/allure/#testresult/4cae74512f8eb75",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628733758143,
+        "stop" : 1628733758144,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d97f8028fadcc31e",
+      "reportUrl" : "http://localhost:8080/job/auto_test/50/allure/#testresult/d97f8028fadcc31e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'ExecSql' object has no attribute 'cur'",
+      "time" : {
+        "start" : 1628647396056,
+        "stop" : 1628647396056,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "abfc8f37d13193d8",
+      "reportUrl" : "http://localhost:8080/job/auto_test/49/allure/#testresult/abfc8f37d13193d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628560918345,
+        "stop" : 1628560918732,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "1be9e84e48a71d4b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/48/allure/#testresult/1be9e84e48a71d4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628559639948,
+        "stop" : 1628559640327,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "30771d8daec3f01b",
+      "reportUrl" : "http://localhost:8080/job/auto_test/47/allure/#testresult/30771d8daec3f01b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object has no attribute '__getitem__'",
+      "time" : {
+        "start" : 1628559347442,
+        "stop" : 1628559347442,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df780834d23849ff",
+      "reportUrl" : "http://localhost:8080/job/auto_test/46/allure/#testresult/df780834d23849ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503913480,
+        "stop" : 1628503913819,
+        "duration" : 339
+      }
+    }, {
+      "uid" : "82055edcbbeb1cd9",
+      "reportUrl" : "http://localhost:8080/job/auto_test/45/allure/#testresult/82055edcbbeb1cd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628503745873,
+        "stop" : 1628503746226,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "f6ca2be183501351",
+      "reportUrl" : "http://localhost:8080/job/auto_test/44/allure/#testresult/f6ca2be183501351",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501519340,
+        "stop" : 1628501519689,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "57cb94cfb0b0aa5f",
+      "reportUrl" : "http://localhost:8080/job/auto_test/43/allure/#testresult/57cb94cfb0b0aa5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628501064658,
+        "stop" : 1628501065003,
+        "duration" : 345
+      }
+    }, {
+      "uid" : "c63432046565b25c",
+      "reportUrl" : "http://localhost:8080/job/auto_test/42/allure/#testresult/c63432046565b25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628500136399,
+        "stop" : 1628500136997,
+        "duration" : 598
+      }
+    }, {
+      "uid" : "329d67f290ffa24d",
+      "reportUrl" : "http://localhost:8080/job/auto_test/41/allure/#testresult/329d67f290ffa24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499753523,
+        "stop" : 1628499753869,
+        "duration" : 346
+      }
+    }, {
+      "uid" : "ffadf70cb408fbf3",
+      "reportUrl" : "http://localhost:8080/job/auto_test/40/allure/#testresult/ffadf70cb408fbf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628499298366,
+        "stop" : 1628499298710,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "74c28e1f4a1d3268",
+      "reportUrl" : "http://localhost:8080/job/auto_test/39/allure/#testresult/74c28e1f4a1d3268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628498871755,
+        "stop" : 1628498872096,
+        "duration" : 341
+      }
+    } ]
+  }
+}

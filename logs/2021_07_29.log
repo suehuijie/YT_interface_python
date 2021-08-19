@@ -1,0 +1,307 @@
+[2021-07-29 09:48:50,024]-logs.py]-ERROR:连接数据库失败：(2003, "Can't connect to MySQL server on 'rm-j6cj81551u2259840249.mysql.rds.aliyuncs.com' (timed out)")
+[2021-07-29 09:48:51,331]-logs.py]-INFO:接口响应数据结果为<Response [200]>
+[2021-07-29 09:48:51,332]-logs.py]-INFO:【pass】
+[2021-07-29 09:49:47,247]-logs.py]-INFO:查询sql数据结果为('68096acdd26dd47bce5af8301558f590', '35df2b5f4c4a2881836cb005d1d74271923b8ec27d456df03fe67b51756cc2b1')
+[2021-07-29 09:49:47,608]-logs.py]-INFO:接口响应数据结果为{'id': 406464167056773120, 'apiKey': '68096acdd26dd47bce5af8301558f590', 'apiToken': '35df2b5f4c4a2881836cb005d1d74271923b8ec27d456df03fe67b51756cc2b1', 'createTime': 1626684387000, 'updateTime': 1627523332000, 'userId': 500000560, 'userName': 'SUE_ZK04', 'createUserId': 500000560, 'status': 1, 'isDeleted': 0}
+[2021-07-29 09:49:47,609]-logs.py]-INFO:【pass】
+[2021-07-29 10:22:03,383]-logs.py]-INFO:新增地址前，查询sql数据结果为(1,)
+[2021-07-29 10:22:03,743]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 10:22:04'}
+[2021-07-29 10:22:03,791]-logs.py]-INFO:新增地址后，查询sql数据结果为(1,)
+[2021-07-29 10:22:03,792]-logs.py]-ERROR:【failed】
+[2021-07-29 10:22:03,842]-logs.py]-INFO:新增地址前，查询sql数据结果为(1,)
+[2021-07-29 10:22:04,194]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 10:22:04'}
+[2021-07-29 10:22:04,243]-logs.py]-INFO:新增地址后，查询sql数据结果为(1,)
+[2021-07-29 10:22:04,246]-logs.py]-ERROR:【failed】
+[2021-07-29 10:22:34,156]-logs.py]-INFO:新增地址前，查询sql数据结果为(1,)
+[2021-07-29 10:22:34,518]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 10:22:34'}
+[2021-07-29 10:22:34,568]-logs.py]-INFO:新增地址后，查询sql数据结果为(1,)
+[2021-07-29 10:22:34,570]-logs.py]-ERROR:【failed】
+[2021-07-29 10:22:34,624]-logs.py]-INFO:新增地址前，查询sql数据结果为(1,)
+[2021-07-29 10:22:34,979]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 10:22:35'}
+[2021-07-29 10:22:35,028]-logs.py]-INFO:新增地址后，查询sql数据结果为(1,)
+[2021-07-29 10:22:35,029]-logs.py]-ERROR:【failed】
+[2021-07-29 10:23:10,630]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 10:23:10,987]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 10:23:11'}
+[2021-07-29 10:23:11,036]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 10:23:11,038]-logs.py]-ERROR:【failed】
+[2021-07-29 10:23:11,090]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 10:23:11,436]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 10:23:11'}
+[2021-07-29 10:23:11,484]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 10:23:11,484]-logs.py]-ERROR:【failed】
+[2021-07-29 10:28:27,037]-logs.py]-INFO:新增地址前，查询sql数据结果为9
+[2021-07-29 10:28:27,404]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 10:28:27'}
+[2021-07-29 10:28:27,452]-logs.py]-INFO:新增地址后，查询sql数据结果为10
+[2021-07-29 10:28:27,453]-logs.py]-INFO:【pass】
+[2021-07-29 10:28:27,504]-logs.py]-INFO:新增地址前，查询sql数据结果为10
+[2021-07-29 10:28:27,845]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 10:28:28'}
+[2021-07-29 10:28:27,894]-logs.py]-INFO:新增地址后，查询sql数据结果为10
+[2021-07-29 10:28:27,895]-logs.py]-ERROR:【failed】
+[2021-07-29 10:44:39,781]-logs.py]-ERROR:【failed】
+[2021-07-29 10:54:51,931]-logs.py]-ERROR:【failed】
+[2021-07-29 10:57:09,378]-logs.py]-ERROR:【failed】
+[2021-07-29 11:05:48,837]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token\n at [Source: (PushbackInputStream); line: 1, column: 9] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["ids"])', 'time': '2021-07-29 11:05:49'}
+[2021-07-29 11:05:48,838]-logs.py]-ERROR:【failed】
+[2021-07-29 11:07:08,489]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token\n at [Source: (PushbackInputStream); line: 1, column: 9] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["ids"])', 'time': '2021-07-29 11:07:08'}
+[2021-07-29 11:08:43,482]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token\n at [Source: (PushbackInputStream); line: 1, column: 9] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["ids"])', 'time': '2021-07-29 11:08:43'}
+[2021-07-29 11:09:25,125]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 11:09:25'}
+[2021-07-29 11:09:48,549]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 10] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["ids"]->java.util.ArrayList[0])', 'time': '2021-07-29 11:09:48'}
+[2021-07-29 11:11:12,374]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 10] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["ids"]->java.util.ArrayList[0])', 'time': '2021-07-29 11:11:12'}
+[2021-07-29 11:11:33,587]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token\n at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["userIds"])', 'time': '2021-07-29 11:11:33'}
+[2021-07-29 11:17:59,205]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'JSON parse error: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList<java.lang.Object>` out of VALUE_NUMBER_INT token\n at [Source: (PushbackInputStream); line: 1, column: 13] (through reference chain: com.ytoglobal.et.app.basic.model.request.UserAddressRequest["userIds"])', 'time': '2021-07-29 11:17:59'}
+[2021-07-29 11:18:20,261]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 11:18:20'}
+[2021-07-29 13:13:17,361]-logs.py]-INFO:查询sql数据结果为('68096acdd26dd47bce5af8301558f590', '35df2b5f4c4a2881836cb005d1d74271923b8ec27d456df03fe67b51756cc2b1')
+[2021-07-29 13:13:17,737]-logs.py]-INFO:接口响应数据结果为{'id': 406464167056773120, 'apiKey': '68096acdd26dd47bce5af8301558f590', 'apiToken': '35df2b5f4c4a2881836cb005d1d74271923b8ec27d456df03fe67b51756cc2b1', 'createTime': 1626684387000, 'updateTime': 1627523332000, 'userId': 500000560, 'userName': 'SUE_ZK04', 'createUserId': 500000560, 'status': 1, 'isDeleted': 0}
+[2021-07-29 13:13:18,102]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 13:13:18'}
+[2021-07-29 13:13:18,153]-logs.py]-INFO:新增地址前，查询sql数据结果为0
+[2021-07-29 13:13:18,523]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 13:13:18'}
+[2021-07-29 13:13:18,571]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 13:13:18,622]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 13:13:18,980]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryCode: 国家二字码不能为空, rejectedValue: null', 'time': '2021-07-29 13:13:19'}
+[2021-07-29 13:13:19,029]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 13:13:19,580]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '修改成功', 'time': '2021-07-29 13:13:19'}
+[2021-07-29 13:13:19,985]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 13:13:20'}
+[2021-07-29 13:23:02,376]-logs.py]-INFO:新增店铺前，查询sql数据结果为3
+[2021-07-29 13:23:02,729]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 13:23:03'}
+[2021-07-29 13:23:02,778]-logs.py]-INFO:新增地址后，查询sql数据结果为3
+[2021-07-29 13:26:35,885]-logs.py]-INFO:新增店铺前，查询sql数据结果为3
+[2021-07-29 13:27:37,174]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 13:26:56'}
+[2021-07-29 13:32:38,772]-logs.py]-INFO:新增店铺前，查询sql数据结果为4
+[2021-07-29 13:32:39,126]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 13:32:39'}
+[2021-07-29 13:32:39,175]-logs.py]-INFO:新增地址后，查询sql数据结果为5
+[2021-07-29 13:51:02,182]-logs.py]-INFO:新增地址前，查询sql数据结果为0
+[2021-07-29 13:51:02,535]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 13:51:02'}
+[2021-07-29 13:51:02,584]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 13:51:02,635]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 13:51:02,984]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryCode: 国家二字码不能为空, rejectedValue: null', 'time': '2021-07-29 13:51:03'}
+[2021-07-29 13:51:03,032]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 13:51:08,517]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '修改成功', 'time': '2021-07-29 13:51:08'}
+[2021-07-29 15:28:08,829]-logs.py]-INFO:新增店铺前，查询sql数据结果为13
+[2021-07-29 15:28:09,187]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:28:09'}
+[2021-07-29 15:28:09,235]-logs.py]-INFO:新增地址后，查询sql数据结果为13
+[2021-07-29 15:28:09,796]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:28:10'}
+[2021-07-29 15:29:04,220]-logs.py]-INFO:新增店铺前，查询sql数据结果为13
+[2021-07-29 15:29:04,567]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:29:05'}
+[2021-07-29 15:29:04,616]-logs.py]-INFO:新增地址后，查询sql数据结果为13
+[2021-07-29 15:29:05,186]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:29:05'}
+[2021-07-29 15:31:03,071]-logs.py]-INFO:新增店铺前，查询sql数据结果为13
+[2021-07-29 15:31:03,429]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:31:03'}
+[2021-07-29 15:31:03,478]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:31:03,892]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:31:04'}
+[2021-07-29 15:31:25,882]-logs.py]-INFO:查询sql数据结果为('14268fca724c9b3bdc617fa6c727ec3a', '04c3050c18057d3a9e0675b9ebd8ecd4873d520e1b5793fb99eb4ebfc5070261')
+[2021-07-29 15:31:26,245]-logs.py]-INFO:接口响应数据结果为{'id': 406464167056773120, 'apiKey': '14268fca724c9b3bdc617fa6c727ec3a', 'apiToken': '04c3050c18057d3a9e0675b9ebd8ecd4873d520e1b5793fb99eb4ebfc5070261', 'createTime': 1626684387000, 'updateTime': 1627535599000, 'userId': 500000560, 'userName': 'SUE_ZK04', 'createUserId': 500000560, 'status': 1, 'isDeleted': 0}
+[2021-07-29 15:31:26,607]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:31:27'}
+[2021-07-29 15:31:26,657]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 15:31:27,046]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 15:31:27'}
+[2021-07-29 15:31:27,095]-logs.py]-INFO:新增地址后，查询sql数据结果为2
+[2021-07-29 15:31:27,146]-logs.py]-INFO:新增地址前，查询sql数据结果为2
+[2021-07-29 15:31:27,495]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 15:31:28'}
+[2021-07-29 15:31:27,544]-logs.py]-INFO:新增地址后，查询sql数据结果为2
+[2021-07-29 15:31:28,104]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '修改成功', 'time': '2021-07-29 15:31:28'}
+[2021-07-29 15:31:28,503]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 15:31:29'}
+[2021-07-29 15:31:28,555]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:31:28,914]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:31:29'}
+[2021-07-29 15:31:28,963]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:31:29,661]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:31:30'}
+[2021-07-29 15:34:51,499]-logs.py]-INFO:查询sql数据结果为('9b5c86f9944adb4d8d77e165fcdbf9f5', '51af63f111aceff579c6128b1de70316127896549356f9d8c4ddde5c6f745708')
+[2021-07-29 15:34:51,861]-logs.py]-INFO:接口响应数据结果为{'id': 406464167056773120, 'apiKey': '9b5c86f9944adb4d8d77e165fcdbf9f5', 'apiToken': '51af63f111aceff579c6128b1de70316127896549356f9d8c4ddde5c6f745708', 'createTime': 1626684387000, 'updateTime': 1627543887000, 'userId': 500000560, 'userName': 'SUE_ZK04', 'createUserId': 500000560, 'status': 1, 'isDeleted': 0}
+[2021-07-29 15:34:52,235]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:34:52'}
+[2021-07-29 15:34:52,285]-logs.py]-INFO:新增地址前，查询sql数据结果为0
+[2021-07-29 15:34:52,652]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 15:34:53'}
+[2021-07-29 15:34:52,703]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 15:34:52,753]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 15:34:53,107]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 15:34:53'}
+[2021-07-29 15:34:53,155]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 15:34:53,715]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '修改成功', 'time': '2021-07-29 15:34:54'}
+[2021-07-29 15:34:54,122]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 15:34:54'}
+[2021-07-29 15:34:54,174]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:34:54,531]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:34:55'}
+[2021-07-29 15:34:54,581]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:34:55,006]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:34:55'}
+[2021-07-29 15:36:59,867]-logs.py]-INFO:查询sql数据结果为('735ecc8ae160805e97595987540810eb', '94dae9e77fa9f67ea3d990e0c29bb42e8d38695879415aa5241b146f254f4a6c')
+[2021-07-29 15:37:00,235]-logs.py]-INFO:接口响应数据结果为{'id': 406464167056773120, 'apiKey': '735ecc8ae160805e97595987540810eb', 'apiToken': '94dae9e77fa9f67ea3d990e0c29bb42e8d38695879415aa5241b146f254f4a6c', 'createTime': 1626684387000, 'updateTime': 1627544093000, 'userId': 500000560, 'userName': 'SUE_ZK04', 'createUserId': 500000560, 'status': 1, 'isDeleted': 0}
+[2021-07-29 15:37:00,605]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:37:01'}
+[2021-07-29 15:37:00,656]-logs.py]-INFO:新增地址前，查询sql数据结果为0
+[2021-07-29 15:37:01,009]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 15:37:01'}
+[2021-07-29 15:37:01,058]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 15:37:01,109]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 15:37:01,452]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 15:37:01'}
+[2021-07-29 15:37:01,505]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 15:37:02,076]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '修改成功', 'time': '2021-07-29 15:37:02'}
+[2021-07-29 15:37:02,480]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 15:37:02'}
+[2021-07-29 15:37:02,539]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:37:02,917]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:37:03'}
+[2021-07-29 15:37:02,967]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:37:03,663]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:37:04'}
+[2021-07-29 15:45:37,764]-logs.py]-INFO:查询sql数据结果为('d2a9f28f5589c6c58eecd6100ed86a89', '9b4512a1d3cddf947fbd0899b20599799f40b257394e567cdebd2ec2962d250f')
+[2021-07-29 15:45:38,131]-logs.py]-INFO:接口响应数据结果为{'id': 406464167056773120, 'apiKey': 'd2a9f28f5589c6c58eecd6100ed86a89', 'apiToken': '9b4512a1d3cddf947fbd0899b20599799f40b257394e567cdebd2ec2962d250f', 'createTime': 1626684387000, 'updateTime': 1627544221000, 'userId': 500000560, 'userName': 'SUE_ZK04', 'createUserId': 500000560, 'status': 1, 'isDeleted': 0}
+[2021-07-29 15:45:39,458]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:45:39'}
+[2021-07-29 15:45:40,469]-logs.py]-INFO:新增地址前，查询sql数据结果为0
+[2021-07-29 15:45:40,824]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '保存成功', 'time': '2021-07-29 15:45:41'}
+[2021-07-29 15:45:40,873]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 15:45:41,870]-logs.py]-INFO:新增地址前，查询sql数据结果为1
+[2021-07-29 15:45:42,209]-logs.py]-INFO:接口响应数据结果为{'status': 400, 'message': 'countryName: 国家名称不能为空, rejectedValue: null', 'time': '2021-07-29 15:45:42'}
+[2021-07-29 15:45:42,259]-logs.py]-INFO:新增地址后，查询sql数据结果为1
+[2021-07-29 15:45:43,783]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '修改成功', 'time': '2021-07-29 15:45:44'}
+[2021-07-29 15:45:45,153]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'data': '删除成功', 'time': '2021-07-29 15:45:45'}
+[2021-07-29 15:45:46,155]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:45:46,512]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:45:47'}
+[2021-07-29 15:45:46,562]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:45:47,909]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:45:48'}
+[2021-07-29 15:48:13,064]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:48:13,415]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:48:13'}
+[2021-07-29 15:48:13,464]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:48:15,002]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:48:15'}
+[2021-07-29 15:48:16,394]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:48:16'}
+[2021-07-29 15:52:09,991]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:52:10,347]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:52:10'}
+[2021-07-29 15:52:10,395]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:52:11,894]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:52:12'}
+[2021-07-29 15:52:13,298]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:52:13'}
+[2021-07-29 15:54:08,754]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:54:09,100]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:54:09'}
+[2021-07-29 15:54:09,149]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:54:10,645]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:54:11'}
+[2021-07-29 15:54:12,045]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:54:12'}
+[2021-07-29 15:57:23,936]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 15:57:24,299]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:57:24'}
+[2021-07-29 15:57:24,347]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 15:57:25,849]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 15:57:26'}
+[2021-07-29 15:57:27,253]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 15:57:27'}
+[2021-07-29 16:13:39,126]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 16:13:39,469]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:13:40'}
+[2021-07-29 16:13:39,801]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 16:13:41,916]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:13:42'}
+[2021-07-29 16:13:44,080]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:13:44'}
+[2021-07-29 16:15:00,319]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 16:15:00,673]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:15:01'}
+[2021-07-29 16:15:00,722]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 16:15:03,105]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:15:03'}
+[2021-07-29 16:15:05,120]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:15:05'}
+[2021-07-29 16:15:55,483]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 16:15:55,830]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:15:56'}
+[2021-07-29 16:15:55,879]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 16:15:57,858]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:15:58'}
+[2021-07-29 16:15:59,726]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:16:00'}
+[2021-07-29 16:22:29,167]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 16:22:29,546]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:22:30'}
+[2021-07-29 16:22:29,595]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 16:22:31,978]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:22:32'}
+[2021-07-29 16:22:33,852]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:22:34'}
+[2021-07-29 16:22:56,084]-logs.py]-INFO:新增店铺前，查询sql数据结果为14
+[2021-07-29 16:22:56,439]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:22:56'}
+[2021-07-29 16:22:56,487]-logs.py]-INFO:新增地址后，查询sql数据结果为14
+[2021-07-29 16:22:58,486]-logs.py]-INFO:接口响应数据结果为{'status': 500, 'message': '店铺名称重复！', 'time': '2021-07-29 16:22:59'}
+[2021-07-29 16:23:00,355]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:23:00'}
+[2021-07-29 16:23:23,460]-logs.py]-INFO:新增店铺前，查询sql数据结果为1
+[2021-07-29 16:23:23,921]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:23:24'}
+[2021-07-29 16:23:24,422]-logs.py]-INFO:新增地址后，查询sql数据结果为2
+[2021-07-29 16:23:26,240]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:23:26'}
+[2021-07-29 16:23:28,104]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:23:28'}
+[2021-07-29 16:39:04,726]-logs.py]-INFO:新增角色前，查询sql数据结果为1
+[2021-07-29 16:39:06,558]-logs.py]-INFO:新增角色前，查询sql数据结果为1
+[2021-07-29 16:41:18,447]-logs.py]-INFO:新增角色前，查询sql数据结果为1
+[2021-07-29 16:41:19,091]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:41:19'}
+[2021-07-29 16:41:20,771]-logs.py]-INFO:新增角色前，查询sql数据结果为1
+[2021-07-29 16:41:21,123]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:41:21'}
+[2021-07-29 16:42:01,844]-logs.py]-INFO:新增角色前，查询sql数据结果为1
+[2021-07-29 16:42:02,201]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:42:02'}
+[2021-07-29 16:42:03,873]-logs.py]-INFO:新增角色前，查询sql数据结果为1
+[2021-07-29 16:42:04,224]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:42:04'}
+[2021-07-29 16:51:37,795]-logs.py]-INFO:新增角色前，查询sql数据结果为7
+[2021-07-29 16:51:38,151]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:51:38'}
+[2021-07-29 16:51:39,807]-logs.py]-INFO:新增角色前，查询sql数据结果为8
+[2021-07-29 16:51:40,172]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:51:40'}
+[2021-07-29 16:52:52,052]-logs.py]-INFO:新增角色前，查询sql数据结果为9
+[2021-07-29 16:52:52,412]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:52:52'}
+[2021-07-29 16:52:54,197]-logs.py]-INFO:新增角色前，查询sql数据结果为10
+[2021-07-29 16:52:54,552]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 16:52:55'}
+[2021-07-29 17:01:12,303]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 17:01:12'}
+[2021-07-29 17:22:35,491]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:23:16,119]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:24:34,903]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:25:10,236]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:25:30,852]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:26:05,492]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:26:05,497]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:27:01,427]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:27:25,274]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:30:27,025]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 51, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 51, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:30:54,789]-logs.py]-ERROR:读testdata_yaml文件报错while parsing a block mapping
+  in "<unicode string>", line 52, column 11:
+            - id: "4",
+              ^
+expected <block end>, but found ','
+  in "<unicode string>", line 52, column 18:
+            - id: "4",
+                     ^
+[2021-07-29 17:45:43,657]-logs.py]-INFO:接口响应数据结果为{'status': 200, 'message': 'OK', 'time': '2021-07-29 17:45:44'}

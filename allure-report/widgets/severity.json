@@ -1,0 +1,271 @@
+[ {
+  "uid" : "4c15fbeb68236625",
+  "name" : "test_addr_add",
+  "time" : {
+    "start" : 1629338550456,
+    "stop" : 1629338550456,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd14ba3db1ab01f",
+  "name" : "test_person_update",
+  "time" : {
+    "start" : 1629338550158,
+    "stop" : 1629338550440,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce06f6c10fd03866",
+  "name" : "test_api_update",
+  "time" : {
+    "start" : 1629338548712,
+    "stop" : 1629338549095,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0a4fb33182aeb9a",
+  "name" : "用例标题：正确用户名，错误密码",
+  "time" : {
+    "start" : 1629338549171,
+    "stop" : 1629338549171,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f6a1a69235d3f",
+  "name" : "用例标题：用户名填写重复，提示用户名已存在",
+  "time" : {
+    "start" : 1629338549739,
+    "stop" : 1629338549739,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b7f5cc1bd23d22f",
+  "name" : "test_shop_status",
+  "time" : {
+    "start" : 1629338549359,
+    "stop" : 1629338549359,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c4409dd725d4d7cb",
+  "name" : "test_role_list",
+  "time" : {
+    "start" : 1629338549627,
+    "stop" : 1629338549628,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d462539a1a4f3d8f",
+  "name" : "用例标题：正确角色名，备注为空",
+  "time" : {
+    "start" : 1629338549525,
+    "stop" : 1629338549526,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f144838a361328",
+  "name" : "用例标题：正确店铺名",
+  "time" : {
+    "start" : 1629338549282,
+    "stop" : 1629338549283,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f4fe29ac35497a",
+  "name" : "test_person_info",
+  "time" : {
+    "start" : 1629338549884,
+    "stop" : 1629338550153,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0578f515f26a09d",
+  "name" : "test_111",
+  "time" : {
+    "start" : 1629338550464,
+    "stop" : 1629338550464,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e67fcf363382eb5",
+  "name" : "test_role_auth",
+  "time" : {
+    "start" : 1629338549597,
+    "stop" : 1629338549598,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9c27f45b372ce9f5",
+  "name" : "用例标题：正确用户名，正确密码",
+  "time" : {
+    "start" : 1629338549126,
+    "stop" : 1629338549127,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c0a3963afbf86bb1",
+  "name" : "test_subuser",
+  "time" : {
+    "start" : 1629338549851,
+    "stop" : 1629338549851,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e3f4e12dc2dfd59",
+  "name" : "test_role_update",
+  "time" : {
+    "start" : 1629338549567,
+    "stop" : 1629338549567,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9501553a643067",
+  "name" : "用例标题：正确的用户信息（填写必填字段）",
+  "time" : {
+    "start" : 1629338549698,
+    "stop" : 1629338549699,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2a4eadadb854eea8",
+  "name" : "test_user_update",
+  "time" : {
+    "start" : 1629338549789,
+    "stop" : 1629338549790,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3b21f533326bc1b4",
+  "name" : "用例标题：正确角色名，备注",
+  "time" : {
+    "start" : 1629338549485,
+    "stop" : 1629338549485,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "15ec42de2c65064c",
+  "name" : "test_user_status",
+  "time" : {
+    "start" : 1629338549819,
+    "stop" : 1629338549819,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a97e893031c94f2d",
+  "name" : "修改地址接口",
+  "time" : {
+    "start" : 1629338549214,
+    "stop" : 1629338549215,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "919a0281d64cb1ad",
+  "name" : "test_shop_update",
+  "time" : {
+    "start" : 1629338549326,
+    "stop" : 1629338549326,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e43472daf219314d",
+  "name" : "用例标题：正确的用户信息（填写所有字段）",
+  "time" : {
+    "start" : 1629338549657,
+    "stop" : 1629338549657,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dc50bc65779fe13e",
+  "name" : "test_user_list",
+  "time" : {
+    "start" : 1629338549855,
+    "stop" : 1629338549855,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "25c852f5cf37c589",
+  "name" : "删除地址接口",
+  "time" : {
+    "start" : 1629338549248,
+    "stop" : 1629338549248,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "93d2ce90c861c587",
+  "name" : "test_shop_list",
+  "time" : {
+    "start" : 1629338549391,
+    "stop" : 1629338549392,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e309e70fdd2b8ce1",
+  "name" : "test_api_list",
+  "time" : {
+    "start" : 1629338548593,
+    "stop" : 1629338548593,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "31e1ffc105a0753",
+  "name" : "test_waybill_add",
+  "time" : {
+    "start" : 1629338550460,
+    "stop" : 1629338550461,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
