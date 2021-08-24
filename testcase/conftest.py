@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # _*_coding:utf-8_*_
+import os
 import sys
+sys.path.append(os.path.split(os.path.abspath(os.path.dirname(__file__)))[0])
 
 import pytest
 from common.login import Login
