@@ -33,7 +33,6 @@ conftest.py  放置了登录获取token供所有用例调用
 
 
 logs
-
 每天的日志数据
 
 report
